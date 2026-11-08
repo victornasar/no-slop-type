@@ -4,7 +4,7 @@ A short, opinionated catalog of free typefaces that don't make a site look AI-ge
 and use so an agent (or you) can pick the right one fast. Every font is free for commercial use and meant
 to be **self-hosted**: no Google Fonts CDN, no third-party requests. The repo stores no font files.
 
-- **Agents:** start at [`AGENTS.md`](AGENTS.md). From any project, `/find-font <brief>` runs it.
+- **Agents:** start at [`AGENTS.md`](AGENTS.md). From any project, `/find-font <brief>` runs it (setup below).
 - **Humans:** browse the catalog below, grouped by use and by feel.
 - **Editing:** change [`fonts.json`](fonts.json) only, then run `python3 scripts/build.py`. It validates the
   data and regenerates the catalog part of this README.
@@ -21,7 +21,18 @@ to be **self-hosted**: no Google Fonts CDN, no third-party requests. The repo st
 | `tests/` | Validator tests: `python3 -m unittest discover -s tests` |
 | `starter/fonts.css` | Copy-paste `@font-face` setup for self-hosting. |
 
-After cloning, run `git config core.hooksPath .githooks` once. The pre-commit hook then blocks commits with an
+### Setup
+
+```sh
+git clone https://github.com/victornasar/no-slop-type ~/code/no-slop-type
+mkdir -p ~/.claude/skills && cp -r ~/code/no-slop-type/skill/find-font ~/.claude/skills/
+```
+
+That gives Claude Code a `/find-font` skill in every project. The skill expects the repo at
+`~/code/no-slop-type`; if you clone it elsewhere, edit the paths in `~/.claude/skills/find-font/SKILL.md`.
+Other agents can be pointed at `AGENTS.md` directly.
+
+If you'll edit the catalog, run `git config core.hooksPath .githooks` once. The pre-commit hook then blocks commits with an
 invalid or out-of-date catalog.
 
 **When to run what:** the hook covers every commit. Run `scripts/eval.py` after changing `AGENTS.md`, the tag
