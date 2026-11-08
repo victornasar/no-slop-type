@@ -61,7 +61,7 @@ A font is slop when either is true:
 - **Everywhere on the web:** it ranks in Google Fonts' top 40 by popularity.
 
 `scripts/measure_slop.py` writes the evidence onto every avoid entry, saves a report to `evals/slop/<date>.json`,
-and suggests additions. It also flags catalog fonts that cross a threshold. Adding to the avoid list or
+and suggests additions. AI rates pool every saved Claude run, because a single run swings too much to judge a font. It also flags catalog fonts that cross a threshold. Adding to the avoid list or
 removing a catalog font stays a human decision.
 
 ---
@@ -139,11 +139,15 @@ Fonts whose *primary* use is the job are listed first.
 Long reading text: articles, docs.
 
 - [Source Sans 3](https://github.com/adobe-fonts/source-sans): *sans*, neutral, warm. Adobe's calm humanist workhorse with wide language support. An alternative to Open Sans.
+- [Ysabeau](https://github.com/CatharsisFonts/Ysabeau): *sans*, literary, warm. Garamond letterforms translated into a low-contrast humanist sans, with wide proportions and long extenders for reading comfort. True italics and small caps; a more literary alternative to Lato.
 - [Ranade](https://www.fontshare.com/fonts/ranade): *sans*, neutral, editorial (FFL). Neo-grotesque with high-contrast diagonals, a little kick that sets it apart from Helvetica clones.
 - [Author](https://www.fontshare.com/fonts/author): *sans*, warm, literary (FFL). Slightly wide humanist sans made for publications. Roomy, readable, a sans that likes books.
 - [Plein](https://www.fontshare.com/fonts/plein): *sans*, warm, neutral (FFL). Monolinear humanist sans with open, pleasant forms. An alternative to DM Sans.
 - [Source Serif 4](https://github.com/adobe-fonts/source-serif): *serif*, literary, neutral. Sturdy transitional serif with an optical-size axis, so it looks right from captions to headlines.
 - [IBM Plex Serif](https://github.com/IBM/plex): *serif*, technical, literary. A serif with an engineer's precision; pairs naturally with Plex Sans and Plex Mono.
+- [Roboto Serif](https://github.com/googlefonts/roboto-serif): *serif*, neutral. Commercial Type's minimal serif for interfaces and long reading, with optical sizes from 8 to 144 plus width and grade. Deliberately quiet, with just a whisper of a serif.
+- [Literata](https://github.com/googlefonts/literata): *serif*, editorial, warm. TypeTogether's reading system for Google Play Books, with optical sizes from 7 to 72, small caps and an unusual upright italic. An alternative to Merriweather.
+- [Piazzolla](https://github.com/huertatipografica/piazzolla): *serif*, editorial. A compact serif for press and publications that need to save space, holding up at small sizes and gaining personality at display sizes. Optical sizes from 8 to 30, with full italics and small caps.
 - [Libertinus](https://github.com/alerque/libertinus): *serif*, literary. Classic old-style book face with huge language coverage and a math companion. For essays, papers, long reads.
 - [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro. Scholar's old-style serif with massive medieval and linguistic coverage. Old-world without being a costume, but clearly academic in flavour.
 - [Sorts Mill Goudy](https://github.com/theleagueof/sorts-mill-goudy): *serif*, literary, warm. A revival of Goudy Oldstyle: warm, bookish, early-20th-century American printing.
@@ -187,6 +191,8 @@ App interfaces, dashboards, small labels.
 - [Recursive](https://github.com/arrowtype/recursive): *mono*, playful, warm. One variable font that slides from sans to mono and from linear to casual brush. Great for friendly dev brands.
 - [IBM Plex Mono](https://github.com/IBM/plex): *mono*, technical, warm. Mono with a slightly humanist italic. Works for code and for tech-flavoured UI labels.
 - [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont): *sans*, warm, neutral. Made for low-vision readers: every confusable letter (I l 1, O 0) is distinct. A humane alternative to Inter for UI.
+- [Ysabeau](https://github.com/CatharsisFonts/Ysabeau): *sans*, literary, warm. Garamond letterforms translated into a low-contrast humanist sans, with wide proportions and long extenders for reading comfort. True italics and small caps; a more literary alternative to Lato.
+- [Roboto Serif](https://github.com/googlefonts/roboto-serif): *serif*, neutral. Commercial Type's minimal serif for interfaces and long reading, with optical sizes from 8 to 144 plus width and grade. Deliberately quiet, with just a whisper of a serif.
 
 ### headlines
 
@@ -214,10 +220,14 @@ Section titles and large text inside a page.
 - [Mona Sans / Hubot Sans](https://github.com/github/mona-sans): *sans*, neutral, technical. GitHub's variable grotesque with a width axis, so one family covers condensed headlines and normal UI. Hubot Sans is its squarer, more mechanical sibling.
 - [Red Hat Display / Text](https://github.com/RedHatOfficial/RedHatFont): *sans*, warm, neutral. Friendly geometric-humanist pair: Display for big sizes, Text for small. An alternative to Poppins or Montserrat.
 - [Overpass](https://github.com/RedHatOfficial/Overpass): *sans*, technical, neutral. Based on US highway signage (Highway Gothic): open, legible, a little civic. Has a matching mono.
+- [Ysabeau](https://github.com/CatharsisFonts/Ysabeau): *sans*, literary, warm. Garamond letterforms translated into a low-contrast humanist sans, with wide proportions and long extenders for reading comfort. True italics and small caps; a more literary alternative to Lato.
 - [Supreme](https://www.fontshare.com/fonts/supreme): *sans*, technical, neutral (FFL). Straight-sided, monolinear engineer's grotesque. An alternative to Space Grotesk without the trend.
 - [Author](https://www.fontshare.com/fonts/author): *sans*, warm, literary (FFL). Slightly wide humanist sans made for publications. Roomy, readable, a sans that likes books.
 - [Source Serif 4](https://github.com/adobe-fonts/source-serif): *serif*, literary, neutral. Sturdy transitional serif with an optical-size axis, so it looks right from captions to headlines.
 - [IBM Plex Serif](https://github.com/IBM/plex): *serif*, technical, literary. A serif with an engineer's precision; pairs naturally with Plex Sans and Plex Mono.
+- [Roboto Serif](https://github.com/googlefonts/roboto-serif): *serif*, neutral. Commercial Type's minimal serif for interfaces and long reading, with optical sizes from 8 to 144 plus width and grade. Deliberately quiet, with just a whisper of a serif.
+- [Literata](https://github.com/googlefonts/literata): *serif*, editorial, warm. TypeTogether's reading system for Google Play Books, with optical sizes from 7 to 72, small caps and an unusual upright italic. An alternative to Merriweather.
+- [Piazzolla](https://github.com/huertatipografica/piazzolla): *serif*, editorial. A compact serif for press and publications that need to save space, holding up at small sizes and gaining personality at display sizes. Optical sizes from 8 to 30, with full italics and small caps.
 - [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro. Scholar's old-style serif with massive medieval and linguistic coverage. Old-world without being a costume, but clearly academic in flavour.
 - [Linden Hill](https://github.com/theleagueof/linden-hill): *serif*, literary, elegant. A revival of Goudy's Deepdene: graceful, slightly calligraphic old-style serif.
 - [Gambetta](https://www.fontshare.com/fonts/gambetta): *serif*, editorial, literary (FFL). Text serif with diagonal stress and contrast that grows with weight. Newspaper-grade reading.
@@ -320,6 +330,7 @@ Quiet, Swiss, gets out of the way.
 - [Source Sans 3](https://github.com/adobe-fonts/source-sans): *sans*, for body, ui
 - [Switzer](https://www.fontshare.com/fonts/switzer): *sans*, for ui, body, headlines
 - [Ranade](https://www.fontshare.com/fonts/ranade): *sans*, for body, ui, headlines
+- [Roboto Serif](https://github.com/googlefonts/roboto-serif): *serif*, for body, headlines, ui
 - [Recia](https://www.fontshare.com/fonts/recia): *serif*, for body, ui
 - [Commit Mono](https://commitmono.com): *mono*, for code, ui
 - [Intel One Mono](https://github.com/intel/intel-one-mono): *mono*, for code, accessible
@@ -344,7 +355,9 @@ Friendly, human, soft edges.
 - [Author](https://www.fontshare.com/fonts/author): *sans*, for body, headlines
 - [Plein](https://www.fontshare.com/fonts/plein): *sans*, for body, ui
 - [Source Sans 3](https://github.com/adobe-fonts/source-sans): *sans*, for body, ui
+- [Ysabeau](https://github.com/CatharsisFonts/Ysabeau): *sans*, for body, headlines, ui
 - [Alpino](https://www.fontshare.com/fonts/alpino): *sans*, for headlines, body
+- [Literata](https://github.com/googlefonts/literata): *serif*, for body, headlines
 - [Sorts Mill Goudy](https://github.com/theleagueof/sorts-mill-goudy): *serif*, for body
 - [Sentient](https://www.fontshare.com/fonts/sentient): *serif*, for body
 - [Intel One Mono](https://github.com/intel/intel-one-mono): *mono*, for code, accessible
@@ -378,6 +391,7 @@ Engineered, precise, a bit cold.
 
 Bookish, classic, made for reading.
 
+- [Ysabeau](https://github.com/CatharsisFonts/Ysabeau): *sans*, for body, headlines, ui
 - [Source Serif 4](https://github.com/adobe-fonts/source-serif): *serif*, for body, headlines
 - [Libertinus](https://github.com/alerque/libertinus): *serif*, for body
 - [Junicode](https://github.com/psb1558/Junicode-font): *serif*, for body, headlines
@@ -397,6 +411,8 @@ Bookish, classic, made for reading.
 Magazine confidence, opinionated serif or grotesque.
 
 - [Alpino](https://www.fontshare.com/fonts/alpino): *sans*, for headlines, body
+- [Literata](https://github.com/googlefonts/literata): *serif*, for body, headlines
+- [Piazzolla](https://github.com/huertatipografica/piazzolla): *serif*, for body, headlines
 - [Gambetta](https://www.fontshare.com/fonts/gambetta): *serif*, for body, headlines
 - [Zodiak](https://www.fontshare.com/fonts/zodiak): *serif*, for headlines, body, posters
 - [Erode](https://www.fontshare.com/fonts/erode): *serif*, for headlines, body
@@ -493,6 +509,7 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 | [Red Hat Display / Text](https://github.com/RedHatOfficial/RedHatFont) | sans | warm, neutral | ui, headlines, body | 300–900 var | yes | latin, latin-ext | OFL |
 | [Overpass](https://github.com/RedHatOfficial/Overpass) | sans | technical, neutral | ui, headlines | 100–900 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
 | [Source Sans 3](https://github.com/adobe-fonts/source-sans) | sans | neutral, warm | body, ui | 200–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [Ysabeau](https://github.com/CatharsisFonts/Ysabeau) | sans | literary, warm | body, headlines, ui | 100–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
 | [Karrik](https://gitlab.com/phantomfoundry/karrik_fonts) | sans | experimental, retro | headlines, posters | 400 | yes | latin, latin-ext | OFL |
 | [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque) | sans | retro, editorial | headlines, logos, posters | 400–700 | no | latin, greek | OFL |
 | [League Spartan](https://github.com/theleagueof/league-spartan) | sans | loud, retro | headlines, logos, posters | 100–900 var | no | latin, latin-ext, vietnamese | OFL |
@@ -506,6 +523,9 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 | [Alpino](https://www.fontshare.com/fonts/alpino) | sans | editorial, warm | headlines, body | 100–900 var | no | latin, latin-ext | FFL |
 | [Source Serif 4](https://github.com/adobe-fonts/source-serif) | serif | literary, neutral | body, headlines | 200–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
 | [IBM Plex Serif](https://github.com/IBM/plex) | serif | technical, literary | body, headlines | 100–700 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
+| [Roboto Serif](https://github.com/googlefonts/roboto-serif) | serif | neutral | body, headlines, ui | 100–900 var | yes | latin, latin-ext, cyrillic | OFL |
+| [Literata](https://github.com/googlefonts/literata) | serif | editorial, warm | body, headlines | 200–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [Piazzolla](https://github.com/huertatipografica/piazzolla) | serif | editorial | body, headlines | 100–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
 | [Libertinus](https://github.com/alerque/libertinus) | serif | literary | body | 400–700 | yes | latin, latin-ext, cyrillic, greek, vietnamese, hebrew | OFL |
 | [Cormorant](https://github.com/CatharsisFonts/Cormorant) | serif | elegant, literary | headlines, logos | 300–700 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
 | [Junicode](https://github.com/psb1558/Junicode-font) | serif | literary, retro | body, headlines | 300–700 var | yes | latin, latin-ext, greek, vietnamese | OFL |
