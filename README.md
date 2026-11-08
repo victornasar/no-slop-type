@@ -40,6 +40,16 @@ invalid or out-of-date catalog.
 vocabulary or many tags at once. Run `scripts/check_links.py` every month or so, and `scripts/measure_slop.py`
 every few months.
 
+### How language tags were measured
+
+`scripts` tags come from each font's character table, using the letter sets in `scripts/glyphs.py`. A letter only
+counts if every measured style has it. Two limits:
+
+- 24 families were measured from Fontsource's builds at weight 400 rather than upstream files, and Monaspace
+  only through its Neon family.
+- `latin-ext` covers Western European languages plus Polish, Czech, Slovak, Hungarian and Croatian. Turkish,
+  Romanian and Baltic letters aren't tested.
+
 ### How "slop" is decided
 
 A font is slop when either is true:
