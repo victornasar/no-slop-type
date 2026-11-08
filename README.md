@@ -5,7 +5,7 @@ Every font here is free for commercial use and **self-hosted**: no Google Fonts 
 
 - `fonts.json`: the catalog in machine-readable form
 - `starter/fonts.css`: copy-paste `@font-face` setup for self-hosting
-- `scripts/no-google-fonts.sh`: fails if a project hotlinks Google Fonts
+- `scripts/no-google-fonts.sh`: fails if a project hotlinks Google Fonts or the Fontshare CDN
 
 ---
 
@@ -30,7 +30,8 @@ replacement with the same API. Self-hosting is still better.
 These are good fonts, but AI tools and templates reach for them so often that they now read as "generated":
 
 **Inter, Geist, Space Grotesk, Instrument Serif, DM Sans, Plus Jakarta Sans, Manrope, Outfit, Poppins,
-Montserrat, Satoshi, JetBrains Mono, Roboto, Open Sans.**
+Montserrat, JetBrains Mono, Roboto, Open Sans.** From Fontshare: **Satoshi, General Sans, Clash Display,
+Cabinet Grotesk.**
 
 You can still use one on purpose. Just don't let it be the font you get by not deciding.
 
@@ -39,7 +40,7 @@ You can still use one on purpose. Just don't let it be the font you get by not d
 ## The list
 
 License key: **OFL** = SIL Open Font License (free to use, modify and bundle). **FFL** = Fontshare's
-free font license (free for commercial use, but read it before redistributing the files).
+ITF Free Font License (see [Fontshare rules](#fontshare-rules) below).
 
 ### Sans
 
@@ -55,9 +56,14 @@ free font license (free for commercial use, but read it before redistributing th
 | Karrik | Velvetyne | OFL | [velvetyne.fr](https://velvetyne.fr) |
 | Sporting Grotesque | Velvetyne | OFL | [velvetyne.fr](https://velvetyne.fr) |
 | League Spartan | The League of Moveable Type | OFL | [theleagueof.com](https://www.theleagueofmoveabletype.com) |
-| Switzer | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
-| General Sans | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
-| Cabinet Grotesk | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
+| Switzer | Jérémie Hornus (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Supreme | Jérémie Hornus (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Synonym | Hugo Dumont (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Technor | Jean-Baptiste Morizot (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Ranade | Easha Ranade (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Author | Satya Rajpurohit (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Plein | Inga Plönnigs (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Alpino | Alisa Nowak (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
 
 ### Serif
 
@@ -73,9 +79,16 @@ free font license (free for commercial use, but read it before redistributing th
 | Happy Times at the IKOB | Velvetyne | OFL | [velvetyne.fr](https://velvetyne.fr) |
 | Sorts Mill Goudy | The League of Moveable Type | OFL | [theleagueof.com](https://www.theleagueofmoveabletype.com) |
 | Linden Hill | The League of Moveable Type | OFL | [theleagueof.com](https://www.theleagueofmoveabletype.com) |
-| Gambetta | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
-| Zodiak | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
-| Erode | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
+| Gambetta | Paul Troppmar (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Zodiak | Jérémie Hornus (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Erode | Nikhil Ranganathan (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Sentient | Noopur Choksi (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Gambarino | Théo Guillard (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Recia | Carlos de Toro (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Bespoke Serif | Jérémie Hornus (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Boska | Barbara Bigosinska (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Trench Slab | Shiva Nallaperumal (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Hoover | Gaetan Baehr (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
 
 ### Display
 
@@ -89,8 +102,13 @@ free font license (free for commercial use, but read it before redistributing th
 | League Gothic | The League of Moveable Type | OFL | [theleagueof.com](https://www.theleagueofmoveabletype.com) |
 | Ostrich Sans | The League of Moveable Type | OFL | [theleagueof.com](https://www.theleagueofmoveabletype.com) |
 | Knewave | The League of Moveable Type | OFL | [theleagueof.com](https://www.theleagueofmoveabletype.com) |
-| Tanker | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
-| Panchang | Indian Type Foundry | FFL | [fontshare.com](https://www.fontshare.com) |
+| Tanker | Ruosi Huang (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Panchang | Barbara Bigosinska (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Aktura | Gaetan Baehr (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Zina | Théo Guillard (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Kola | Jean-Baptiste Morizot (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Melodrama | Shaily Patel (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
+| Segment | Frode Helland (Fontshare) | FFL | [fontshare.com](https://www.fontshare.com) |
 
 ### Mono
 
@@ -117,9 +135,32 @@ free font license (free for commercial use, but read it before redistributing th
 - [Use & Modify](https://usemodify.com): curated libre fonts
 - [Uncut](https://uncut.wtf): free and open-source typefaces
 - [Badass Libre Fonts by Womxn](https://www.design-research.be/by-womxn/): libre fonts designed by women
-- [Fontshare](https://www.fontshare.com): Indian Type Foundry's free catalog (download the files; don't use their CDN)
+- [Fontshare](https://www.fontshare.com): Indian Type Foundry's free catalog (see the rules below)
 - [Fontsource](https://fontsource.org): npm packages for self-hosting open fonts, including the Google catalog
 - [tfam.io/type](https://tfam.io/type): good for *finding* a vibe, but it searches the Google catalog. Self-host whatever you pick.
+
+---
+
+## Fontshare rules
+
+Fontshare fonts are not open source. They use the ITF Free Font License (v2.0, August 2026), which ships
+as `License/FFL.txt` in every download. In short:
+
+- **Allowed:** personal and commercial use in any medium; self-hosting with `@font-face` on your own sites
+  and apps; logos and wordmarks (which you can trademark); embedding in PDFs and apps. Credit is optional.
+- **Not allowed:** redistributing the files anywhere (public git repos, npm packages, other font sites);
+  modifying them, including subsetting, format conversion or renaming; handing the files to a contractor
+  (they download their own copy); offering the font as a selectable option in a tool other people use.
+
+That means:
+
+- Never commit Fontshare files to a public repo. Keep them out of version control, or in a private repo
+  used only for your own site.
+- Use the `.woff2` files from the zip's `Fonts/WEB/fonts/` folder as they are. Don't subset or convert them.
+- Don't use Fontshare's own CDN (`api.fontshare.com`) either. It sends visitor IPs to a third party, the
+  same problem as the Google Fonts ruling. Self-hosting is explicitly allowed and recommended in the license.
+- Fontshare also lists OFL fonts (Poppins, Montserrat, Space Grotesk and others). Those are mostly the
+  Google catalog, so they aren't in this list.
 
 ---
 
@@ -130,6 +171,6 @@ This repo doesn't store any font files. It only points to where they come from.
 1. Download the `.woff2` files from the font's source into your own project (e.g. `fonts/`).
 2. Keep the font's license file next to them (OFL requires it if you redistribute).
 3. Copy `starter/fonts.css` into your project, edit it, and link it from your page.
-4. Run `scripts/no-google-fonts.sh path/to/your/project` to check nothing still hotlinks Google.
+4. Run `scripts/no-google-fonts.sh path/to/your/project` to check nothing still hotlinks Google or Fontshare.
 
 Licenses can change. Check the font's own license before you ship.

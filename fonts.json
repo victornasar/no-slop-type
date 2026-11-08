@@ -71,24 +71,67 @@
   },
   {
     "name": "Switzer",
-    "by": "Indian Type Foundry",
+    "by": "Jérémie Hornus",
     "category": "sans",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
-    "name": "General Sans",
-    "by": "Indian Type Foundry",
+    "name": "Supreme",
+    "by": "Jérémie Hornus",
     "category": "sans",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
-    "name": "Cabinet Grotesk",
-    "by": "Indian Type Foundry",
+    "name": "Synonym",
+    "by": "Hugo Dumont",
     "category": "sans",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Technor",
+    "by": "Jean-Baptiste Morizot",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Ranade",
+    "by": "Easha Ranade",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Author",
+    "by": "Satya Rajpurohit",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Plein",
+    "by": "Inga Plönnigs",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Alpino",
+    "by": "Alisa Nowak",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
     "name": "Source Serif 4",
@@ -162,24 +205,83 @@
   },
   {
     "name": "Gambetta",
-    "by": "Indian Type Foundry",
+    "by": "Paul Troppmar",
     "category": "serif",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
     "name": "Zodiak",
-    "by": "Indian Type Foundry",
+    "by": "Jérémie Hornus",
     "category": "serif",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
     "name": "Erode",
-    "by": "Indian Type Foundry",
+    "by": "Nikhil Ranganathan",
     "category": "serif",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Sentient",
+    "by": "Noopur Choksi",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Gambarino",
+    "by": "Théo Guillard",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Recia",
+    "by": "Carlos de Toro",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Bespoke Serif",
+    "by": "Jérémie Hornus",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Boska",
+    "by": "Barbara Bigosinska",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Trench Slab",
+    "by": "Shiva Nallaperumal",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Hoover",
+    "by": "Gaetan Baehr",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
     "name": "Ouroboros",
@@ -239,17 +341,59 @@
   },
   {
     "name": "Tanker",
-    "by": "Indian Type Foundry",
+    "by": "Ruosi Huang",
     "category": "display",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
     "name": "Panchang",
-    "by": "Indian Type Foundry",
+    "by": "Barbara Bigosinska",
     "category": "display",
     "license": "FFL",
-    "url": "https://www.fontshare.com"
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Aktura",
+    "by": "Gaetan Baehr",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Zina",
+    "by": "Théo Guillard",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Kola",
+    "by": "Jean-Baptiste Morizot",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Melodrama",
+    "by": "Shaily Patel",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
+  },
+  {
+    "name": "Segment",
+    "by": "Frode Helland",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com",
+    "source": "fontshare"
   },
   {
     "name": "Commit Mono",
