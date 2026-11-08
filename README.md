@@ -15,7 +15,16 @@ to be **self-hosted**: no Google Fonts CDN, no third-party requests. The repo st
 | `AGENTS.md` | How an agent picks a font from a brief. |
 | `scripts/build.py` | Validates `fonts.json` and regenerates this README's catalog. `--check` to verify only. |
 | `scripts/no-google-fonts.sh` | Fails if a project hotlinks Google Fonts or the Fontshare CDN. |
+| `scripts/eval.py` | Runs the briefs in `evals/briefs.json` through `/find-font` and checks the picks. Uses Claude calls. |
+| `scripts/check_links.py` | Checks every font link is alive and Fontshare facts still match. Needs the internet. |
+| `tests/` | Validator tests: `python3 -m unittest discover -s tests` |
 | `starter/fonts.css` | Copy-paste `@font-face` setup for self-hosting. |
+
+After cloning, run `git config core.hooksPath .githooks` once. The pre-commit hook then blocks commits with an
+invalid or out-of-date catalog.
+
+**When to run what:** the hook covers every commit. Run `scripts/eval.py` after changing `AGENTS.md`, the tag
+vocabulary or many tags at once. Run `scripts/check_links.py` every month or so.
 
 ---
 

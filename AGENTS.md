@@ -94,6 +94,14 @@ Use this shape, nothing longer:
 
 For FFL fonts the License cell always says: *"Fontshare: self-host only, keep files out of public repos."*
 
+End every answer with the picks as a fenced `json` block, one entry per role. `role` is a `use` tag,
+`ids` are `fonts.json` ids in rank order, and the first id of each role is the top pick (together they form
+the pair). Three ids per role, or every candidate when fewer than three pass the filter:
+
+```json
+{"picks": [{"role": "headlines", "ids": ["erode", "boska", "zodiak"]}, {"role": "body", "ids": ["switzer", "source-sans-3", "plein"]}]}
+```
+
 ### Feel words
 
 Map the brief's words to `feel` tags. Examples, not an exhaustive list:
