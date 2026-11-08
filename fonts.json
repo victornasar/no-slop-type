@@ -1053,7 +1053,8 @@
       "instead": ["switzer", "public-sans", "atkinson-hyperlegible-next"],
       "ai_rate": 0.562,
       "google_rank": 5,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Geist",
@@ -1061,7 +1062,8 @@
       "instead": ["switzer", "supreme", "mona-sans"],
       "ai_rate": 0.0,
       "google_rank": 90,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
     },
     {
       "name": "Space Grotesk",
@@ -1069,7 +1071,8 @@
       "instead": ["supreme", "technor", "karrik"],
       "ai_rate": 0.0,
       "google_rank": 62,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
     },
     {
       "name": "Instrument Serif",
@@ -1077,7 +1080,8 @@
       "instead": ["erode", "gambarino", "cormorant"],
       "ai_rate": 0.125,
       "google_rank": 70,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
     },
     {
       "name": "DM Sans",
@@ -1085,7 +1089,8 @@
       "instead": ["plein", "red-hat"],
       "ai_rate": 0.188,
       "google_rank": 21,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Plus Jakarta Sans",
@@ -1093,7 +1098,8 @@
       "instead": ["red-hat", "synonym"],
       "ai_rate": 0.0,
       "google_rank": 34,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Manrope",
@@ -1101,7 +1107,8 @@
       "instead": ["switzer", "ranade"],
       "ai_rate": 0.0,
       "google_rank": 29,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Outfit",
@@ -1109,7 +1116,8 @@
       "instead": ["red-hat", "league-spartan"],
       "ai_rate": 0.0,
       "google_rank": 31,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Poppins",
@@ -1117,7 +1125,8 @@
       "instead": ["red-hat", "league-spartan"],
       "ai_rate": 0.0,
       "google_rank": 8,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Montserrat",
@@ -1125,7 +1134,8 @@
       "instead": ["league-spartan", "panchang"],
       "ai_rate": 0.0,
       "google_rank": 6,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Roboto",
@@ -1133,7 +1143,8 @@
       "instead": ["public-sans", "source-sans-3"],
       "ai_rate": 0.0,
       "google_rank": 2,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Open Sans",
@@ -1141,7 +1152,8 @@
       "instead": ["source-sans-3", "plein"],
       "ai_rate": 0.0,
       "google_rank": 3,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "JetBrains Mono",
@@ -1149,7 +1161,8 @@
       "instead": ["commit-mono", "intel-one-mono", "monaspace"],
       "ai_rate": 0.188,
       "google_rank": 43,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "measured"
     },
     {
       "name": "Satoshi",
@@ -1157,7 +1170,8 @@
       "instead": ["switzer", "supreme"],
       "ai_rate": 0.0,
       "google_rank": null,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
     },
     {
       "name": "General Sans",
@@ -1165,7 +1179,8 @@
       "instead": ["switzer", "plein"],
       "ai_rate": 0.0,
       "google_rank": null,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
     },
     {
       "name": "Clash Display",
@@ -1173,7 +1188,8 @@
       "instead": ["panchang", "league-gothic", "tanker"],
       "ai_rate": 0.0,
       "google_rank": null,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
     },
     {
       "name": "Cabinet Grotesk",
@@ -1181,7 +1197,98 @@
       "instead": ["synonym", "sporting-grotesque"],
       "ai_rate": 0.0,
       "google_rank": null,
-      "measured": "2026-11-07"
+      "measured": "2026-11-07",
+      "basis": "judgement"
+    },
+    {
+      "name": "Fraunces",
+      "why": "Claude's default 'warm editorial' serif: in half of the AI-built sites that load a web font.",
+      "instead": ["erode", "gambetta", "zodiak"],
+      "ai_rate": 0.5,
+      "google_rank": 74,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Playfair Display",
+      "why": "The default 'elegant serif' of free templates.",
+      "instead": ["boska", "cormorant", "gambarino"],
+      "ai_rate": 0.062,
+      "google_rank": 23,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Lato",
+      "why": "The default 'friendly humanist sans' of free templates.",
+      "instead": ["source-sans-3", "plein", "ranade"],
+      "ai_rate": 0.0,
+      "google_rank": 10,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Raleway",
+      "why": "The default 'stylish thin sans' of free templates.",
+      "instead": ["red-hat", "league-spartan", "synonym"],
+      "ai_rate": 0.0,
+      "google_rank": 24,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Nunito",
+      "why": "The default 'rounded friendly sans' of free templates.",
+      "instead": ["red-hat", "atkinson-hyperlegible-next", "plein"],
+      "ai_rate": 0.0,
+      "google_rank": 25,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Figtree",
+      "why": "A ubiquitous geometric UI default.",
+      "instead": ["switzer", "plein", "red-hat"],
+      "ai_rate": 0.0,
+      "google_rank": 39,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Oswald",
+      "why": "The default condensed headline font.",
+      "instead": ["league-gothic", "tanker", "mona-sans"],
+      "ai_rate": 0.0,
+      "google_rank": 18,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Bebas Neue",
+      "why": "The default condensed all-caps poster font.",
+      "instead": ["league-gothic", "tanker", "ostrich-sans"],
+      "ai_rate": 0.0,
+      "google_rank": 40,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Merriweather",
+      "why": "The default 'readable screen serif' of free templates.",
+      "instead": ["source-serif-4", "sentient", "bespoke-serif"],
+      "ai_rate": 0.0,
+      "google_rank": 33,
+      "measured": "2026-11-07",
+      "basis": "measured"
+    },
+    {
+      "name": "Rubik",
+      "why": "A ubiquitous soft-cornered sans default.",
+      "instead": ["red-hat", "recursive", "synonym"],
+      "ai_rate": 0.0,
+      "google_rank": 30,
+      "measured": "2026-11-07",
+      "basis": "measured"
     }
   ]
 }

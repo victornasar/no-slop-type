@@ -82,10 +82,12 @@ def validate(data):
         if "fonts.googleapis.com" in f["url"] or "api.fontshare.com" in f["url"]:
             errors.append(f"{where}: url must be a source page, not a CDN")
 
-    avoid_keys = {"name", "why", "instead", "ai_rate", "google_rank", "measured"}
+    avoid_keys = {"name", "why", "instead", "ai_rate", "google_rank", "measured", "basis"}
     for a in data["avoid"]:
         for key in set(a) - avoid_keys:
             errors.append(f"avoid '{a.get('name')}': unknown field '{key}'")
+        if a.get("basis") not in ("measured", "judgement"):
+            errors.append(f"avoid '{a.get('name')}': basis must be 'measured' or 'judgement'")
         for target in a["instead"]:
             if target not in ids:
                 errors.append(f"avoid '{a['name']}': unknown font id '{target}'")
@@ -160,6 +162,8 @@ def catalog(data):
             rank = f"Google #{a['google_rank']}" if a.get("google_rank") else "not on Google"
             ai = f"AI rate {a['ai_rate']:.0%}" if a.get("ai_rate") is not None else "AI rate not measured"
             evidence = f" *({ai}, {rank}, measured {a['measured']})*"
+        if a.get("basis") == "judgement":
+            evidence += " **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet."
         out.append(f"- **{a['name']}**: {a['why']} Try {', '.join(names[i] for i in a['instead'])}.{evidence}")
     return "\n".join(out) + "\n"
 

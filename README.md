@@ -541,9 +541,9 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 ## Avoid as defaults
 
 - **Inter**: The default of nearly every AI-generated UI and SaaS template. Try Switzer, Public Sans, Atkinson Hyperlegible Next. *(AI rate 56%, Google #5, measured 2026-11-07)*
-- **Geist**: Vercel's font; now the default look of AI-generated Next.js apps. Try Switzer, Supreme, Mona Sans / Hubot Sans. *(AI rate 0%, Google #90, measured 2026-11-07)*
-- **Space Grotesk**: The go-to 'techy but friendly' choice in templates. Try Supreme, Technor, Karrik. *(AI rate 0%, Google #62, measured 2026-11-07)*
-- **Instrument Serif**: The default 'tasteful serif' in AI landing pages. Try Erode, Gambarino, Cormorant. *(AI rate 12%, Google #70, measured 2026-11-07)*
+- **Geist**: Vercel's font; now the default look of AI-generated Next.js apps. Try Switzer, Supreme, Mona Sans / Hubot Sans. *(AI rate 0%, Google #90, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
+- **Space Grotesk**: The go-to 'techy but friendly' choice in templates. Try Supreme, Technor, Karrik. *(AI rate 0%, Google #62, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
+- **Instrument Serif**: The default 'tasteful serif' in AI landing pages. Try Erode, Gambarino, Cormorant. *(AI rate 12%, Google #70, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
 - **DM Sans**: Ubiquitous geometric default. Try Plein, Red Hat Display / Text. *(AI rate 19%, Google #21, measured 2026-11-07)*
 - **Plus Jakarta Sans**: Ubiquitous in startup templates. Try Red Hat Display / Text, Synonym. *(AI rate 0%, Google #34, measured 2026-11-07)*
 - **Manrope**: Ubiquitous in startup templates. Try Switzer, Ranade. *(AI rate 0%, Google #29, measured 2026-11-07)*
@@ -553,9 +553,19 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 - **Roboto**: Android and Material default; reads as 'no decision made'. Try Public Sans, Source Sans 3. *(AI rate 0%, Google #2, measured 2026-11-07)*
 - **Open Sans**: Reads as 'no decision made'. Try Source Sans 3, Plein. *(AI rate 0%, Google #3, measured 2026-11-07)*
 - **JetBrains Mono**: The default mono in AI-generated code UIs. Try Commit Mono, Intel One Mono, Monaspace. *(AI rate 19%, Google #43, measured 2026-11-07)*
-- **Satoshi**: Fontshare's most-used font; the default of Framer-style templates. Try Switzer, Supreme. *(AI rate 0%, not on Google, measured 2026-11-07)*
-- **General Sans**: Heavily used in Framer-style templates. Try Switzer, Plein. *(AI rate 0%, not on Google, measured 2026-11-07)*
-- **Clash Display**: The default 'bold display' of Framer-style templates. Try Panchang, League Gothic, Tanker. *(AI rate 0%, not on Google, measured 2026-11-07)*
-- **Cabinet Grotesk**: Heavily used in Framer-style templates. Try Synonym, Sporting Grotesque. *(AI rate 0%, not on Google, measured 2026-11-07)*
+- **Satoshi**: Fontshare's most-used font; the default of Framer-style templates. Try Switzer, Supreme. *(AI rate 0%, not on Google, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
+- **General Sans**: Heavily used in Framer-style templates. Try Switzer, Plein. *(AI rate 0%, not on Google, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
+- **Clash Display**: The default 'bold display' of Framer-style templates. Try Panchang, League Gothic, Tanker. *(AI rate 0%, not on Google, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
+- **Cabinet Grotesk**: Heavily used in Framer-style templates. Try Synonym, Sporting Grotesque. *(AI rate 0%, not on Google, measured 2026-11-07)* **On judgement:** a house font of starters and template tools that the measurement doesn't sample yet.
+- **Fraunces**: Claude's default 'warm editorial' serif: in half of the AI-built sites that load a web font. Try Erode, Gambetta, Zodiak. *(AI rate 50%, Google #74, measured 2026-11-07)*
+- **Playfair Display**: The default 'elegant serif' of free templates. Try Boska, Cormorant, Gambarino. *(AI rate 6%, Google #23, measured 2026-11-07)*
+- **Lato**: The default 'friendly humanist sans' of free templates. Try Source Sans 3, Plein, Ranade. *(AI rate 0%, Google #10, measured 2026-11-07)*
+- **Raleway**: The default 'stylish thin sans' of free templates. Try Red Hat Display / Text, League Spartan, Synonym. *(AI rate 0%, Google #24, measured 2026-11-07)*
+- **Nunito**: The default 'rounded friendly sans' of free templates. Try Red Hat Display / Text, Atkinson Hyperlegible Next, Plein. *(AI rate 0%, Google #25, measured 2026-11-07)*
+- **Figtree**: A ubiquitous geometric UI default. Try Switzer, Plein, Red Hat Display / Text. *(AI rate 0%, Google #39, measured 2026-11-07)*
+- **Oswald**: The default condensed headline font. Try League Gothic, Tanker, Mona Sans / Hubot Sans. *(AI rate 0%, Google #18, measured 2026-11-07)*
+- **Bebas Neue**: The default condensed all-caps poster font. Try League Gothic, Tanker, Ostrich Sans. *(AI rate 0%, Google #40, measured 2026-11-07)*
+- **Merriweather**: The default 'readable screen serif' of free templates. Try Source Serif 4, Sentient, Bespoke Serif. *(AI rate 0%, Google #33, measured 2026-11-07)*
+- **Rubik**: A ubiquitous soft-cornered sans default. Try Red Hat Display / Text, Recursive, Synonym. *(AI rate 0%, Google #30, measured 2026-11-07)*
 
 <!-- catalog:end -->

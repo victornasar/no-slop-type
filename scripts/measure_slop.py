@@ -178,7 +178,8 @@ def main():
                          key=lambda x: ranks[x])
     flagged = [{"id": catalog[x], "name": x, "ai_rate": rate.get(x, 0.0), "google_rank": ranks.get(x)}
                for x in catalog if is_slop(x)]
-    stale = [a["name"] for a in data["avoid"] if not is_slop(a["name"])]
+    stale = [a["name"] for a in data["avoid"] if a.get("basis") != "judgement" and not is_slop(a["name"])]
+    confirmed = [a["name"] for a in data["avoid"] if a.get("basis") == "judgement" and is_slop(a["name"])]
 
     FONTS.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build.py")], check=True)
@@ -189,7 +190,7 @@ def main():
         "thresholds": {"ai_rate": AI_RATE, "google_top": GOOGLE_TOP, "min_font_sites": MIN_FONT_SITES},
         "ai_rates": dict(sorted(rate.items(), key=lambda kv: -kv[1])),
         "suggest_avoid_ai": suggest_ai, "suggest_avoid_web": suggest_web,
-        "catalog_flagged": flagged, "avoid_below_threshold": stale,
+        "catalog_flagged": flagged, "avoid_below_threshold": stale, "judgement_now_confirmed": confirmed,
     }
     (SLOP / f"{date}.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
 
@@ -203,7 +204,8 @@ def main():
     print(f"Suggested avoid additions (Google top {GOOGLE_TOP}): {', '.join(suggest_web) or 'none'}")
     print(f"Catalog fonts crossing a threshold: {', '.join(x['name'] for x in flagged) or 'none'}")
     label = "below both thresholds" if enough else f"not in Google top {GOOGLE_TOP} (AI data too thin to judge)"
-    print(f"Avoid entries {label}: {', '.join(stale) or 'none'}")
+    print(f"Measured avoid entries {label}: {', '.join(stale) or 'none'}")
+    print(f"Judgement entries now backed by data (switch basis to 'measured'): {', '.join(confirmed) or 'none'}")
     print(f"\nReport: {(SLOP / f'{date}.json').relative_to(ROOT)}")
 
 
