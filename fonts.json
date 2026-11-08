@@ -146,7 +146,7 @@
       "category": "sans",
       "by": "Jean-Baptiste Morizot, Lucas Le Bihan (Velvetyne)",
       "license": "OFL",
-      "url": "https://velvetyne.fr/fonts/karrik/",
+      "url": "https://gitlab.com/phantomfoundry/karrik_fonts",
       "feel": ["experimental", "retro"],
       "use": ["headlines", "posters"],
       "note": "Deliberately clumsy early-sans revival with uneven widths and missing optical corrections. Feels like faded road signs and ghost-town lettering.",
@@ -154,7 +154,7 @@
       "weights": [400],
       "italics": true,
       "scripts": ["latin"],
-      "caveats": "Single weight plus italic; best at display sizes. Velvetyne's site was redirecting to a strike notice in Nov 2026; try again later or use a mirror that keeps the OFL file."
+      "caveats": "Single weight plus italic; best at display sizes."
     },
     {
       "id": "sporting-grotesque",
@@ -169,8 +169,8 @@
       "variable": false,
       "weights": [400, 700],
       "italics": false,
-      "scripts": ["latin"],
-      "caveats": "Two weights only, no italics. Not for long reading."
+      "scripts": ["latin", "greek"],
+      "caveats": "Two weights only, no italics. Not for long reading. Missing Õ Š Ž."
     },
     {
       "id": "league-spartan",
@@ -393,7 +393,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "greek"],
+      "scripts": ["latin", "greek", "vietnamese"],
       "caveats": "Variable axes: weight, width and Enlarge. Wide default line spacing. Very large character set; subset it for the web."
     },
     {
@@ -410,7 +410,7 @@
       "weights": [400],
       "italics": false,
       "scripts": ["latin"],
-      "caveats": "Single style. Display only."
+      "caveats": "Single style. Display only. Small character set: missing ß Ø Ł Š Ž and # % * + = [ ] { }."
     },
     {
       "id": "avara",
@@ -426,7 +426,7 @@
       "weights": [700, 900],
       "italics": true,
       "scripts": ["latin"],
-      "caveats": "Bold and Black only; italic only for Bold."
+      "caveats": "Bold and Black only; italic only for Bold. Missing ß Ø Ł Š Ž."
     },
     {
       "id": "happy-times",
@@ -442,7 +442,7 @@
       "weights": [400, 700],
       "italics": true,
       "scripts": ["latin"],
-      "caveats": "Regular, Bold and Italic only; no bold italic."
+      "caveats": "Regular, Bold and Italic only; no bold italic. Western European accents only: missing Ł Š Ž."
     },
     {
       "id": "sorts-mill-goudy",
@@ -682,7 +682,7 @@
       "weights": [400],
       "italics": false,
       "scripts": ["latin"],
-      "caveats": "Single weight, plus an 'Open' variant."
+      "caveats": "Single weight, plus an 'Open' variant. Missing Ł Š Ž Œ."
     },
     {
       "id": "le-murmure",
@@ -697,7 +697,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "cyrillic", "greek"],
       "caveats": "Single weight."
     },
     {
@@ -916,7 +916,7 @@
       "license": "OFL",
       "url": "https://departuremono.com",
       "feel": ["technical", "retro"],
-      "use": ["code", "ui", "posters"],
+      "use": ["code", "posters"],
       "note": "Monospaced pixel font with a lo-fi techy vibe. Strong for code, terminals, retro interfaces and sci-fi moments.",
       "variable": false,
       "weights": [400],
@@ -953,7 +953,7 @@
       "variable": true,
       "weights": [400, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "cyrillic", "vietnamese"],
       "caveats": null
     },
     {

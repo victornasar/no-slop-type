@@ -147,8 +147,7 @@ Include the matching line in the answer so the user can fetch the files:
 
 - **fontshare.com/fonts/…**: "Download family" → zip → `Fonts/WEB/fonts/*.woff2`.
 - **github.com/…**: the latest release's assets; look for a `webfonts` or `woff2` folder, plus `OFL.txt`.
-- **gitlab.com/velvetyne/…**: the repo's `fonts/` folder (OTF, TTF and often WOFF2).
-- **velvetyne.fr**: was redirecting to a strike notice in Nov 2026. Most families are also at gitlab.com/velvetyne.
+- **gitlab.com/…**: the repo's `fonts/` folder (OTF, TTF and often WOFF2).
 - **Other sites** (commitmono.com, departuremono.com, brailleinstitute.org): the site's download button.
 
 ---
