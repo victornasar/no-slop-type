@@ -4,7 +4,7 @@ A short, opinionated list of free typefaces that don't make a site look AI-gener
 Every font here is free for commercial use and **self-hosted**: no Google Fonts CDN, no third-party requests.
 
 - `fonts.json`: the catalog in machine-readable form
-- `starter/`: copy-paste `@font-face` setup for self-hosting
+- `starter/fonts.css`: copy-paste `@font-face` setup for self-hosting
 - `scripts/no-google-fonts.sh`: fails if a project hotlinks Google Fonts
 
 ---
@@ -125,9 +125,11 @@ free font license (free for commercial use, but read it before redistributing th
 
 ## Using a font
 
-1. Download the `.woff2` files from the font's source and put them in `starter/fonts/`.
+This repo doesn't store any font files. It only points to where they come from.
+
+1. Download the `.woff2` files from the font's source into your own project (e.g. `fonts/`).
 2. Keep the font's license file next to them (OFL requires it if you redistribute).
-3. Edit `starter/fonts.css` and link it from your page.
+3. Copy `starter/fonts.css` into your project, edit it, and link it from your page.
 4. Run `scripts/no-google-fonts.sh path/to/your/project` to check nothing still hotlinks Google.
 
 Licenses can change. Check the font's own license before you ship.
