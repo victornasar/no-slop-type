@@ -134,7 +134,7 @@ Long reading text: articles, docs.
 - [Source Serif 4](https://github.com/adobe-fonts/source-serif): *serif*, literary, neutral. Sturdy transitional serif with an optical-size axis, so it looks right from captions to headlines.
 - [IBM Plex Serif](https://github.com/IBM/plex): *serif*, technical, literary. A serif with an engineer's precision; pairs naturally with Plex Sans and Plex Mono.
 - [Libertinus](https://github.com/alerque/libertinus): *serif*, literary. Classic old-style book face with huge language coverage and a math companion. For essays, papers, long reads.
-- [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro (unreviewed). A scholar's serif built for medievalists, with weight and width axes. Old-world without being a costume.
+- [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro. Scholar's old-style serif with massive medieval and linguistic coverage. Old-world without being a costume, but clearly academic in flavour.
 - [Sorts Mill Goudy](https://github.com/theleagueof/sorts-mill-goudy): *serif*, literary, warm. A revival of Goudy Oldstyle: warm, bookish, early-20th-century American printing.
 - [Linden Hill](https://github.com/theleagueof/linden-hill): *serif*, literary, elegant. A revival of Goudy's Deepdene: graceful, slightly calligraphic old-style serif.
 - [Gambetta](https://www.fontshare.com/fonts/gambetta): *serif*, editorial, literary (FFL). Text serif with diagonal stress and contrast that grows with weight. Newspaper-grade reading.
@@ -148,7 +148,7 @@ Long reading text: articles, docs.
 - [Switzer](https://www.fontshare.com/fonts/switzer): *sans*, neutral (FFL). Classic neo-grotesque with 9 weights and true italics. The quieter, less-seen alternative to Inter and Satoshi.
 - [Synonym](https://www.fontshare.com/fonts/synonym): *sans*, warm, editorial (FFL, no italics). Humanist sans with visible stroke contrast; personality without losing legibility. Made for branding and editorial.
 - [Alpino](https://www.fontshare.com/fonts/alpino): *sans*, editorial, warm (FFL, no italics). Magazine humanist sans: small x-height, long ascenders, oldstyle figures, softly rounded corners.
-- [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB): *serif*, playful, editorial (unreviewed). A cheeky riff on Times New Roman with odd, joyful details. Times, but it smiles.
+- [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB): *serif*, playful, editorial. A cheeky contemporary riff on Times New Roman with odd, joyful details, made for a museum identity. Times, but it smiles.
 - [Zodiak](https://www.fontshare.com/fonts/zodiak): *serif*, editorial (FFL). Sturdy Century-style serif. Middle weights set text; the extreme thin and black weights make great display pairs.
 - [Erode](https://www.fontshare.com/fonts/erode): *serif*, editorial, elegant (FFL). Contrasty serif with long ascenders and open counters. Made for pull quotes and eye-catching headlines.
 - [Mona Sans / Hubot Sans](https://github.com/github/mona-sans): *sans*, neutral, technical. GitHub's variable grotesque with a width axis, so one family covers condensed headlines and normal UI. Hubot Sans is its squarer, more mechanical sibling.
@@ -180,8 +180,8 @@ App interfaces, dashboards, small labels.
 
 Section titles and large text inside a page.
 
-- [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, experimental, technical (unreviewed). A grotesque with odd notches cut into its strokes; reads as normal from afar and strange up close.
-- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, retro, editorial (no italics, unreviewed). A wide, slightly old-fashioned grotesque with sporty swagger. Feels like a vintage club badge.
+- [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, experimental, retro. Deliberately clumsy early-sans revival with uneven widths and missing optical corrections. Feels like faded road signs and ghost-town lettering.
+- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, retro, editorial (no italics). Wide, slightly old-fashioned grotesque with sporty swagger and calligraphic quirks (droopy r, wedge cuts, closed apertures). Feels like a vintage club badge.
 - [League Spartan](https://github.com/theleagueof/league-spartan): *sans*, loud, retro (no italics). Bold geometric in the Futura tradition; the heaviest weights are the reason to use it.
 - [Synonym](https://www.fontshare.com/fonts/synonym): *sans*, warm, editorial (FFL, no italics). Humanist sans with visible stroke contrast; personality without losing legibility. Made for branding and editorial.
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, technical, retro (FFL, no italics). Constructed sans with flat sides and rounded tops. Sci-fi and industrial without being a cliché.
@@ -189,7 +189,7 @@ Section titles and large text inside a page.
 - [Cormorant](https://github.com/CatharsisFonts/Cormorant): *serif*, elegant, literary. Delicate Garamond-style display serif with long, sharp details. Luxurious at large sizes.
 - [Bagnard](https://github.com/sebsan/Bagnard): *serif*, retro, editorial (no italics). Based on graffiti carved by a Napoleonic-era prisoner: rough, heavy, unusual serif with real character.
 - [Avara](https://gitlab.com/velvetyne/Avara): *serif*, experimental, editorial. A curveless serif: every curve drawn as straight segments. Classic silhouette, faceted up close.
-- [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB): *serif*, playful, editorial (unreviewed). A cheeky riff on Times New Roman with odd, joyful details. Times, but it smiles.
+- [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB): *serif*, playful, editorial. A cheeky contemporary riff on Times New Roman with odd, joyful details, made for a museum identity. Times, but it smiles.
 - [Zodiak](https://www.fontshare.com/fonts/zodiak): *serif*, editorial (FFL). Sturdy Century-style serif. Middle weights set text; the extreme thin and black weights make great display pairs.
 - [Erode](https://www.fontshare.com/fonts/erode): *serif*, editorial, elegant (FFL). Contrasty serif with long ascenders and open counters. Made for pull quotes and eye-catching headlines.
 - [Gambarino](https://www.fontshare.com/fonts/gambarino): *serif*, elegant, editorial (FFL, no italics). Condensed post-modern Garalde for headlines. Pair it with a quieter text serif or sans.
@@ -208,7 +208,7 @@ Section titles and large text inside a page.
 - [Author](https://www.fontshare.com/fonts/author): *sans*, warm, literary (FFL). Slightly wide humanist sans made for publications. Roomy, readable, a sans that likes books.
 - [Source Serif 4](https://github.com/adobe-fonts/source-serif): *serif*, literary, neutral. Sturdy transitional serif with an optical-size axis, so it looks right from captions to headlines.
 - [IBM Plex Serif](https://github.com/IBM/plex): *serif*, technical, literary. A serif with an engineer's precision; pairs naturally with Plex Sans and Plex Mono.
-- [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro (unreviewed). A scholar's serif built for medievalists, with weight and width axes. Old-world without being a costume.
+- [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro. Scholar's old-style serif with massive medieval and linguistic coverage. Old-world without being a costume, but clearly academic in flavour.
 - [Linden Hill](https://github.com/theleagueof/linden-hill): *serif*, literary, elegant. A revival of Goudy's Deepdene: graceful, slightly calligraphic old-style serif.
 - [Gambetta](https://www.fontshare.com/fonts/gambetta): *serif*, editorial, literary (FFL). Text serif with diagonal stress and contrast that grows with weight. Newspaper-grade reading.
 - [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque): *display*, retro, experimental (no italics). Rough pixel grotesque, cyberpunk zine energy.
@@ -236,7 +236,7 @@ Hero text, covers, one-word big moments.
 - [Tanker](https://www.fontshare.com/fonts/tanker): *display*, loud, experimental (FFL, no italics). Condensed caps-only sans: the lowercase keys type classic caps and the uppercase keys type dynamic, experimental ones.
 - [Panchang](https://www.fontshare.com/fonts/panchang): *display*, loud, technical (FFL, no italics). Ultra-wide, almost panoramic sans. Industrial and very confident.
 - [Segment](https://www.fontshare.com/fonts/segment): *display*, retro, technical (FFL, no italics). LCD-style letters built from segments. Digital clocks, transit boards, calculators.
-- [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, experimental, technical (unreviewed). A grotesque with odd notches cut into its strokes; reads as normal from afar and strange up close.
+- [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, experimental, retro. Deliberately clumsy early-sans revival with uneven widths and missing optical corrections. Feels like faded road signs and ghost-town lettering.
 - [Avara](https://gitlab.com/velvetyne/Avara): *serif*, experimental, editorial. A curveless serif: every curve drawn as straight segments. Classic silhouette, faceted up close.
 - [Boska](https://www.fontshare.com/fonts/boska): *serif*, elegant, editorial (FFL). High-contrast Didone with a pointed-pen flourish. Fashion-magazine elegance. An alternative to Playfair Display.
 - [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, experimental, elegant (no italics, unreviewed). Medieval-inspired serif with wild, sharp details; Moonlight is delicate, Bold is gothic drama.
@@ -245,6 +245,7 @@ Hero text, covers, one-word big moments.
 - [Zina](https://www.fontshare.com/fonts/zina): *display*, elegant, retro (FFL, no italics). Stately inline Didone with ball terminals. Early-1800s grandeur.
 - [Melodrama](https://www.fontshare.com/fonts/melodrama): *display*, elegant, editorial (FFL, no italics). Sans with extreme contrast that grows with weight. Glamorous and theatrical.
 - [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, experimental, retro (no italics, unreviewed). Stepped, angular mono. More art piece than coding font.
+- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, retro, editorial (no italics). Wide, slightly old-fashioned grotesque with sporty swagger and calligraphic quirks (droopy r, wedge cuts, closed apertures). Feels like a vintage club badge.
 - [League Spartan](https://github.com/theleagueof/league-spartan): *sans*, loud, retro (no italics). Bold geometric in the Futura tradition; the heaviest weights are the reason to use it.
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, technical, retro (FFL, no italics). Constructed sans with flat sides and rounded tops. Sci-fi and industrial without being a cliché.
 - [Zodiak](https://www.fontshare.com/fonts/zodiak): *serif*, editorial (FFL). Sturdy Century-style serif. Middle weights set text; the extreme thin and black weights make great display pairs.
@@ -257,7 +258,7 @@ Wordmarks and brand marks.
 
 - [Aktura](https://www.fontshare.com/fonts/aktura): *display*, retro, experimental (FFL, no italics). Modern blackletter with ornate Lombardic capitals. Newspaper nameplate, diploma or metal band.
 - [Zina](https://www.fontshare.com/fonts/zina): *display*, elegant, retro (FFL, no italics). Stately inline Didone with ball terminals. Early-1800s grandeur.
-- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, retro, editorial (no italics, unreviewed). A wide, slightly old-fashioned grotesque with sporty swagger. Feels like a vintage club badge.
+- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, retro, editorial (no italics). Wide, slightly old-fashioned grotesque with sporty swagger and calligraphic quirks (droopy r, wedge cuts, closed apertures). Feels like a vintage club badge.
 - [League Spartan](https://github.com/theleagueof/league-spartan): *sans*, loud, retro (no italics). Bold geometric in the Futura tradition; the heaviest weights are the reason to use it.
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, technical, retro (FFL, no italics). Constructed sans with flat sides and rounded tops. Sci-fi and industrial without being a cliché.
 - [Cormorant](https://github.com/CatharsisFonts/Cormorant): *serif*, elegant, literary. Delicate Garamond-style display serif with long, sharp details. Luxurious at large sizes.
@@ -352,7 +353,6 @@ Engineered, precise, a bit cold.
 - [Iosevka](https://github.com/be5invis/Iosevka): *mono*, for code
 - [IBM Plex Mono](https://github.com/IBM/plex): *mono*, for code, ui, body
 - [Mona Sans / Hubot Sans](https://github.com/github/mona-sans): *sans*, for ui, headlines, body
-- [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, for headlines, posters
 - [Sligoil](https://gitlab.com/velvetyne/sligoil): *display*, for headlines, posters
 - [Panchang](https://www.fontshare.com/fonts/panchang): *display*, for posters, headlines, logos
 - [Segment](https://www.fontshare.com/fonts/segment): *display*, for posters, logos
@@ -387,7 +387,7 @@ Magazine confidence, opinionated serif or grotesque.
 - [Zodiak](https://www.fontshare.com/fonts/zodiak): *serif*, for headlines, body, posters
 - [Erode](https://www.fontshare.com/fonts/erode): *serif*, for headlines, body
 - [Le Murmure](https://gitlab.com/velvetyne/murmure): *display*, for posters, headlines
-- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, for headlines, logos
+- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, for headlines, logos, posters
 - [Synonym](https://www.fontshare.com/fonts/synonym): *sans*, for headlines, body, logos
 - [Ranade](https://www.fontshare.com/fonts/ranade): *sans*, for body, ui, headlines
 - [Bagnard](https://github.com/sebsan/Bagnard): *serif*, for headlines, logos
@@ -454,13 +454,14 @@ Weird, art-school, rule-breaking.
 
 Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 
-- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, for headlines, logos
+- [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, for headlines, logos, posters
 - [Bagnard](https://github.com/sebsan/Bagnard): *serif*, for headlines, logos
 - [Hoover](https://www.fontshare.com/fonts/hoover): *serif*, for headlines, logos, posters
 - [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque): *display*, for posters, headlines
 - [Aktura](https://www.fontshare.com/fonts/aktura): *display*, for logos, posters
 - [Segment](https://www.fontshare.com/fonts/segment): *display*, for posters, logos
 - [Departure Mono](https://departuremono.com): *mono*, for code, headlines, posters
+- [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, for headlines, posters
 - [League Spartan](https://github.com/theleagueof/league-spartan): *sans*, for headlines, logos, posters
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, for headlines, logos, posters
 - [Junicode](https://github.com/psb1558/Junicode-font): *serif*, for body, headlines
@@ -479,8 +480,8 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 | [Red Hat Display / Text](https://github.com/RedHatOfficial/RedHatFont) | sans | warm, neutral | ui, headlines, body | 300–900 var | yes | latin | OFL |
 | [Overpass](https://github.com/RedHatOfficial/Overpass) | sans | technical, neutral | ui, headlines | 100–900 var | yes | latin, cyrillic, vietnamese | OFL |
 | [Source Sans 3](https://github.com/adobe-fonts/source-sans) | sans | neutral, warm | body, ui | 200–900 var | yes | latin, cyrillic, greek, vietnamese | OFL |
-| [Karrik](https://velvetyne.fr/fonts/karrik/) ⚠︎ | sans | experimental, technical | headlines, posters | 400 | yes | latin | OFL |
-| [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque) ⚠︎ | sans | retro, editorial | headlines, logos | 400–700 | no | latin | OFL |
+| [Karrik](https://velvetyne.fr/fonts/karrik/) | sans | experimental, retro | headlines, posters | 400 | yes | latin | OFL |
+| [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque) | sans | retro, editorial | headlines, logos, posters | 400–700 | no | latin | OFL |
 | [League Spartan](https://github.com/theleagueof/league-spartan) | sans | loud, retro | headlines, logos, posters | 100–900 var | no | latin, vietnamese | OFL |
 | [Switzer](https://www.fontshare.com/fonts/switzer) | sans | neutral | ui, body, headlines | 100–900 var | yes | latin | FFL |
 | [Supreme](https://www.fontshare.com/fonts/supreme) | sans | technical, neutral | ui, headlines | 100–800 var | yes | latin | FFL |
@@ -494,10 +495,10 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 | [IBM Plex Serif](https://github.com/IBM/plex) | serif | technical, literary | body, headlines | 100–700 var | yes | latin, cyrillic, vietnamese | OFL |
 | [Libertinus](https://github.com/alerque/libertinus) | serif | literary | body | 400–700 | yes | latin, cyrillic, greek, hebrew, vietnamese | OFL |
 | [Cormorant](https://github.com/CatharsisFonts/Cormorant) | serif | elegant, literary | headlines, logos | 300–700 var | yes | latin, cyrillic, vietnamese | OFL |
-| [Junicode](https://github.com/psb1558/Junicode-font) ⚠︎ | serif | literary, retro | body, headlines | 300–700 var | yes | latin, greek | OFL |
+| [Junicode](https://github.com/psb1558/Junicode-font) | serif | literary, retro | body, headlines | 300–700 var | yes | latin, greek | OFL |
 | [Bagnard](https://github.com/sebsan/Bagnard) | serif | retro, editorial | headlines, logos | 400 | no | latin | OFL |
 | [Avara](https://gitlab.com/velvetyne/Avara) | serif | experimental, editorial | headlines, posters | 700–900 | yes | latin | OFL |
-| [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB) ⚠︎ | serif | playful, editorial | headlines, body | 400–700 | yes | latin | OFL |
+| [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB) | serif | playful, editorial | headlines, body | 400–700 | yes | latin | OFL |
 | [Sorts Mill Goudy](https://github.com/theleagueof/sorts-mill-goudy) | serif | literary, warm | body | 400 | yes | latin | OFL |
 | [Linden Hill](https://github.com/theleagueof/linden-hill) | serif | literary, elegant | body, headlines | 400 | yes | latin | OFL |
 | [Gambetta](https://www.fontshare.com/fonts/gambetta) | serif | editorial, literary | body, headlines | 300–700 var | yes | latin | FFL |

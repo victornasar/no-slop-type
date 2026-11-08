@@ -147,15 +147,14 @@
       "by": "Jean-Baptiste Morizot, Lucas Le Bihan (Velvetyne)",
       "license": "OFL",
       "url": "https://velvetyne.fr/fonts/karrik/",
-      "feel": ["experimental", "technical"],
+      "feel": ["experimental", "retro"],
       "use": ["headlines", "posters"],
-      "note": "A grotesque with odd notches cut into its strokes; reads as normal from afar and strange up close.",
+      "note": "Deliberately clumsy early-sans revival with uneven widths and missing optical corrections. Feels like faded road signs and ghost-town lettering.",
       "variable": false,
       "weights": [400],
       "italics": true,
       "scripts": ["latin"],
-      "caveats": "Single weight. Velvetyne's site was redirecting to a strike notice in Nov 2026; try again later or use a mirror that keeps the OFL file.",
-      "review": true
+      "caveats": "Single weight plus italic; best at display sizes. Velvetyne's site was redirecting to a strike notice in Nov 2026; try again later or use a mirror that keeps the OFL file."
     },
     {
       "id": "sporting-grotesque",
@@ -165,14 +164,13 @@
       "license": "OFL",
       "url": "https://gitlab.com/velvetyne/Sporting-Grotesque",
       "feel": ["retro", "editorial"],
-      "use": ["headlines", "logos"],
-      "note": "A wide, slightly old-fashioned grotesque with sporty swagger. Feels like a vintage club badge.",
+      "use": ["headlines", "logos", "posters"],
+      "note": "Wide, slightly old-fashioned grotesque with sporty swagger and calligraphic quirks (droopy r, wedge cuts, closed apertures). Feels like a vintage club badge.",
       "variable": false,
       "weights": [400, 700],
       "italics": false,
       "scripts": ["latin"],
-      "caveats": "Two weights only.",
-      "review": true
+      "caveats": "Two weights only, no italics. Not for long reading."
     },
     {
       "id": "league-spartan",
@@ -391,13 +389,12 @@
       "url": "https://github.com/psb1558/Junicode-font",
       "feel": ["literary", "retro"],
       "use": ["body", "headlines"],
-      "note": "A scholar's serif built for medievalists, with weight and width axes. Old-world without being a costume.",
+      "note": "Scholar's old-style serif with massive medieval and linguistic coverage. Old-world without being a costume, but clearly academic in flavour.",
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
       "scripts": ["latin", "greek"],
-      "caveats": "Very large character set for medieval and runic text; subset it for the web.",
-      "review": true
+      "caveats": "Variable axes: weight, width and Enlarge. Wide default line spacing. Very large character set; subset it for the web."
     },
     {
       "id": "bagnard",
@@ -440,13 +437,12 @@
       "url": "https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB",
       "feel": ["playful", "editorial"],
       "use": ["headlines", "body"],
-      "note": "A cheeky riff on Times New Roman with odd, joyful details. Times, but it smiles.",
+      "note": "A cheeky contemporary riff on Times New Roman with odd, joyful details, made for a museum identity. Times, but it smiles.",
       "variable": false,
       "weights": [400, 700],
       "italics": true,
       "scripts": ["latin"],
-      "caveats": null,
-      "review": true
+      "caveats": "Regular, Bold and Italic only; no bold italic."
     },
     {
       "id": "sorts-mill-goudy",
