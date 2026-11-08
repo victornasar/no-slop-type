@@ -48,6 +48,10 @@ class ValidatorTest(unittest.TestCase):
         errors = broken(lambda d: d["avoid"][0]["instead"].append("nope"))
         self.assertTrue(any("unknown font id 'nope'" in e for e in errors), errors)
 
+    def test_latin_ext_requires_latin(self):
+        errors = broken(lambda d: d["fonts"][0].update(scripts=["latin-ext"]))
+        self.assertTrue(any("latin-ext requires latin" in e for e in errors), errors)
+
     def test_duplicate_id(self):
         errors = broken(lambda d: d["fonts"].append(copy.deepcopy(d["fonts"][0])))
         self.assertTrue(any("duplicate id" in e for e in errors), errors)

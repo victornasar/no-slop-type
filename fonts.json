@@ -41,7 +41,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 800],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -57,7 +57,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": null
     },
     {
@@ -73,7 +73,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": "Strongly associated with GitHub; avoid for developer-tool brands that shouldn't look like GitHub."
     },
     {
@@ -89,7 +89,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "greek", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek", "vietnamese"],
       "caveats": "Separate Plex families also cover Arabic, Devanagari, Hebrew, Thai, Japanese, Korean and Chinese."
     },
     {
@@ -105,7 +105,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Red Hat Text stops at 700; 800 and 900 are Display only."
     },
     {
@@ -121,7 +121,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "vietnamese"],
       "caveats": null
     },
     {
@@ -137,7 +137,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "greek", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek", "vietnamese"],
       "caveats": null
     },
     {
@@ -153,7 +153,7 @@
       "variable": false,
       "weights": [400],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Single weight plus italic; best at display sizes."
     },
     {
@@ -185,7 +185,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
       "italics": false,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": "No italics."
     },
     {
@@ -201,7 +201,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -217,7 +217,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 700, 800],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Italics are obliques (slanted uprights)."
     },
     {
@@ -233,7 +233,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "No italics, so weak for long body text with emphasis."
     },
     {
@@ -249,7 +249,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 900],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -265,7 +265,7 @@
       "variable": true,
       "weights": [100, 300, 400, 500, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -281,7 +281,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -297,7 +297,7 @@
       "variable": true,
       "weights": [300, 400, 500, 700, 900],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -313,7 +313,7 @@
       "variable": true,
       "weights": [100, 300, 400, 500, 700, 900],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "No italics. Small x-height reads small at UI sizes."
     },
     {
@@ -329,7 +329,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "greek", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek", "vietnamese"],
       "caveats": null
     },
     {
@@ -345,7 +345,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "vietnamese"],
       "caveats": null
     },
     {
@@ -361,7 +361,7 @@
       "variable": false,
       "weights": [400, 600, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "greek", "hebrew", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek", "vietnamese", "hebrew"],
       "caveats": null
     },
     {
@@ -377,7 +377,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "vietnamese"],
       "caveats": "Too thin for body text on screens; use Cormorant Garamond or another serif for text."
     },
     {
@@ -393,7 +393,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "greek", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "greek", "vietnamese"],
       "caveats": "Variable axes: weight, width and Enlarge. Wide default line spacing. Very large character set; subset it for the web."
     },
     {
@@ -457,7 +457,7 @@
       "variable": false,
       "weights": [400],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Regular and italic only; no bold."
     },
     {
@@ -473,7 +473,7 @@
       "variable": false,
       "weights": [400],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Regular and italic only; no bold."
     },
     {
@@ -489,7 +489,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -505,7 +505,7 @@
       "variable": true,
       "weights": [100, 300, 400, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -521,7 +521,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -537,7 +537,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -553,7 +553,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Single weight, display only."
     },
     {
@@ -569,7 +569,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -585,7 +585,7 @@
       "variable": true,
       "weights": [300, 400, 500, 700, 800],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -601,7 +601,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 700, 900],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Hairlines break up at small sizes; headlines only."
     },
     {
@@ -617,7 +617,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Made for larger-than-reading sizes."
     },
     {
@@ -633,7 +633,7 @@
       "variable": true,
       "weights": [100, 300, 400, 500, 700],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -649,7 +649,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "vietnamese"],
       "caveats": "Highly decorative. Single weight. Best at large sizes; not for body text."
     },
     {
@@ -665,7 +665,7 @@
       "variable": false,
       "weights": [300, 700],
       "italics": false,
-      "scripts": ["latin", "greek"],
+      "scripts": ["latin", "latin-ext", "greek"],
       "caveats": "Two weights only. Display-oriented; not for long reading."
     },
     {
@@ -697,7 +697,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin", "cyrillic", "greek"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek"],
       "caveats": "Single weight."
     },
     {
@@ -713,7 +713,7 @@
       "variable": true,
       "weights": [400, 500, 700],
       "italics": false,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": "Styles are named Micro, Micro Medium and Micro Bold."
     },
     {
@@ -729,7 +729,7 @@
       "variable": true,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": "One weight; the variable axis is width, not weight."
     },
     {
@@ -777,7 +777,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Uppercase only. Single weight."
     },
     {
@@ -793,7 +793,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 800],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Takes a lot of horizontal space; short words only."
     },
     {
@@ -809,7 +809,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Single weight. Don't set all caps, the capitals are ornate."
     },
     {
@@ -825,7 +825,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Single weight. Large sizes only, the inline disappears small."
     },
     {
@@ -841,7 +841,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Single weight."
     },
     {
@@ -857,7 +857,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Thin strokes vanish at small sizes."
     },
     {
@@ -873,7 +873,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": "Single weight."
     },
     {
@@ -889,7 +889,7 @@
       "variable": false,
       "weights": [200, 300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext", "greek"],
       "caveats": null
     },
     {
@@ -905,7 +905,7 @@
       "variable": true,
       "weights": [200, 300, 400, 500, 600, 700, 800],
       "italics": true,
-      "scripts": ["latin"],
+      "scripts": ["latin", "latin-ext"],
       "caveats": null
     },
     {
@@ -921,7 +921,7 @@
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin", "cyrillic", "greek"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek"],
       "caveats": "Pixel font: size in increments of 11px for crisp rendering. Single weight."
     },
     {
@@ -937,7 +937,7 @@
       "variable": true,
       "weights": [300, 400, 500, 700],
       "italics": true,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": null
     },
     {
@@ -953,7 +953,7 @@
       "variable": true,
       "weights": [400, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "vietnamese"],
       "caveats": null
     },
     {
@@ -969,7 +969,7 @@
       "variable": true,
       "weights": [300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "vietnamese"],
       "caveats": "Italics come from the slant and cursive axes, not separate files."
     },
     {
@@ -985,7 +985,7 @@
       "variable": false,
       "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "greek"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek", "vietnamese"],
       "caveats": "Huge download; pick a prebuilt web package or a custom build."
     },
     {
@@ -1001,7 +1001,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "greek", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "greek", "vietnamese"],
       "caveats": null
     },
     {
@@ -1017,7 +1017,7 @@
       "variable": true,
       "weights": [100, 200, 300, 400, 500, 600, 700],
       "italics": true,
-      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "scripts": ["latin", "latin-ext", "cyrillic", "vietnamese"],
       "caveats": null
     },
     {

@@ -24,7 +24,7 @@ Work out three things:
 - **Roles**: which `use` tags the brief needs. A website usually needs two roles, `headlines` plus `body`
   (or `ui` for an app). A logo needs `logos`. A code editor needs `code`.
 - **Feel**: one or two `feel` tags, inferred from the brief's words. See [Feel words](#feel-words).
-- **Hard constraints**: languages (map to `scripts`), whether the project's repo is public (affects Fontshare,
+- **Hard constraints**: languages (see [Languages](#languages)), whether the project's repo is public (affects Fontshare,
   see [Licenses](#licenses)), and any font the brief names.
 
 Ask one short question only when the roles cannot be inferred. Feel is always inferred; a wrong guess shows up
@@ -123,6 +123,19 @@ Map the brief's words to `feel` tags. Examples, not an exhaustive list:
 | art, gallery, avant-garde, zine, music, weird | `experimental` |
 | nostalgic, vintage, 8-bit, varsity, medieval, 70s | `retro` |
 
+### Languages
+
+Map the brief's languages to `scripts`:
+
+- English only: `latin`.
+- German, French, Spanish, Polish, Czech and other Western or Central European languages: `latin-ext`.
+- Cyrillic, Greek, Vietnamese and Hebrew text: the tag of that name.
+- Turkish, Romanian and Baltic languages use letters no tag tests. Filter on `latin-ext` and say coverage is
+  unverified.
+
+`latin-ext` is all-or-nothing, so a font missing only Czech letters fails it even for a French brief. Its
+`caveats` name what's missing.
+
 ### Fallback stacks
 
 Append to the `font-family` of every recommendation:
@@ -159,7 +172,8 @@ Include the matching line in the answer so the user can fetch the files:
    decision for the user; ask first.
 3. Take `weights`, `italics`, `variable` and `scripts` from a source (the foundry's files, the Fontshare
    API at `api.fontshare.com/v2/fonts`, or the Fontsource API at `api.fontsource.org/v1/fonts/<id>`), never from
-   memory. Set `"review": true` on any font whose tags are your judgement and haven't been checked by the user.
+   memory. `scripts` comes from `python3 scripts/glyphs.py <every style's OTF or TTF>`: list exactly what it
+   earns. Set `"review": true` on any font whose tags are your judgement and haven't been checked by the user.
 4. Write `note` as one or two plain sentences on what it feels like and what it's for. Name the overused
    font it replaces when there is one ("an alternative to Inter").
 5. `url` is the font's source page, never a CDN.

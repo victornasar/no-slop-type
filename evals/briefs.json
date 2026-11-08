@@ -16,7 +16,7 @@
       "roles": [
         ["body"]
       ],
-      "scripts": ["latin"]
+      "scripts": ["latin-ext"]
     },
     {
       "id": "russian-blog",
@@ -26,6 +26,14 @@
         ["body"]
       ],
       "scripts": ["cyrillic"]
+    },
+    {
+      "id": "polish-magazine",
+      "brief": "Polish-language culture magazine, headlines only",
+      "roles": [
+        ["headlines"]
+      ],
+      "scripts": ["latin-ext"]
     },
     {
       "id": "replace-inter",

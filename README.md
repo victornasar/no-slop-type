@@ -17,6 +17,7 @@ to be **self-hosted**: no Google Fonts CDN, no third-party requests. The repo st
 | `scripts/no-google-fonts.sh` | Fails if a project hotlinks Google Fonts or the Fontshare CDN. |
 | `scripts/eval.py` | Runs the briefs in `evals/briefs.json` through `/find-font` and checks the picks. Uses Claude calls. |
 | `scripts/check_links.py` | Checks every font link is alive and Fontshare facts still match. Needs the internet. |
+| `scripts/glyphs.py` | Reports which `scripts` tags a font earns, from its OTF or TTF files. |
 | `scripts/measure_slop.py` | Measures which fonts are slop (see below). About 30 Claude calls. |
 | `tests/` | Validator tests: `python3 -m unittest discover -s tests` |
 | `starter/fonts.css` | Copy-paste `@font-face` setup for self-hosting. |
@@ -475,68 +476,68 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 
 | Font | Category | Feel | Use | Weights | Italics | Scripts | License |
 |---|---|---|---|---|---|---|---|
-| [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont) | sans | warm, neutral | accessible, body, ui | 200–800 var | yes | latin | OFL |
-| [Public Sans](https://github.com/uswds/public-sans) | sans | neutral | ui, body | 100–900 var | yes | latin, vietnamese | OFL |
-| [Mona Sans / Hubot Sans](https://github.com/github/mona-sans) | sans | neutral, technical | ui, headlines, body | 200–900 var | yes | latin, vietnamese | OFL |
-| [IBM Plex Sans](https://github.com/IBM/plex) | sans | technical, neutral | ui, body | 100–700 var | yes | latin, cyrillic, greek, vietnamese | OFL |
-| [Red Hat Display / Text](https://github.com/RedHatOfficial/RedHatFont) | sans | warm, neutral | ui, headlines, body | 300–900 var | yes | latin | OFL |
-| [Overpass](https://github.com/RedHatOfficial/Overpass) | sans | technical, neutral | ui, headlines | 100–900 var | yes | latin, cyrillic, vietnamese | OFL |
-| [Source Sans 3](https://github.com/adobe-fonts/source-sans) | sans | neutral, warm | body, ui | 200–900 var | yes | latin, cyrillic, greek, vietnamese | OFL |
-| [Karrik](https://gitlab.com/phantomfoundry/karrik_fonts) | sans | experimental, retro | headlines, posters | 400 | yes | latin | OFL |
+| [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont) | sans | warm, neutral | accessible, body, ui | 200–800 var | yes | latin, latin-ext | OFL |
+| [Public Sans](https://github.com/uswds/public-sans) | sans | neutral | ui, body | 100–900 var | yes | latin, latin-ext, vietnamese | OFL |
+| [Mona Sans / Hubot Sans](https://github.com/github/mona-sans) | sans | neutral, technical | ui, headlines, body | 200–900 var | yes | latin, latin-ext, vietnamese | OFL |
+| [IBM Plex Sans](https://github.com/IBM/plex) | sans | technical, neutral | ui, body | 100–700 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [Red Hat Display / Text](https://github.com/RedHatOfficial/RedHatFont) | sans | warm, neutral | ui, headlines, body | 300–900 var | yes | latin, latin-ext | OFL |
+| [Overpass](https://github.com/RedHatOfficial/Overpass) | sans | technical, neutral | ui, headlines | 100–900 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
+| [Source Sans 3](https://github.com/adobe-fonts/source-sans) | sans | neutral, warm | body, ui | 200–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [Karrik](https://gitlab.com/phantomfoundry/karrik_fonts) | sans | experimental, retro | headlines, posters | 400 | yes | latin, latin-ext | OFL |
 | [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque) | sans | retro, editorial | headlines, logos, posters | 400–700 | no | latin, greek | OFL |
-| [League Spartan](https://github.com/theleagueof/league-spartan) | sans | loud, retro | headlines, logos, posters | 100–900 var | no | latin, vietnamese | OFL |
-| [Switzer](https://www.fontshare.com/fonts/switzer) | sans | neutral | ui, body, headlines | 100–900 var | yes | latin | FFL |
-| [Supreme](https://www.fontshare.com/fonts/supreme) | sans | technical, neutral | ui, headlines | 100–800 var | yes | latin | FFL |
-| [Synonym](https://www.fontshare.com/fonts/synonym) | sans | warm, editorial | headlines, body, logos | 200–700 var | no | latin | FFL |
-| [Technor](https://www.fontshare.com/fonts/technor) | sans | technical, retro | headlines, logos, posters | 200–900 var | no | latin | FFL |
-| [Ranade](https://www.fontshare.com/fonts/ranade) | sans | neutral, editorial | body, ui, headlines | 100–700 var | yes | latin | FFL |
-| [Author](https://www.fontshare.com/fonts/author) | sans | warm, literary | body, headlines | 200–700 var | yes | latin | FFL |
-| [Plein](https://www.fontshare.com/fonts/plein) | sans | warm, neutral | body, ui | 300–900 var | yes | latin | FFL |
-| [Alpino](https://www.fontshare.com/fonts/alpino) | sans | editorial, warm | headlines, body | 100–900 var | no | latin | FFL |
-| [Source Serif 4](https://github.com/adobe-fonts/source-serif) | serif | literary, neutral | body, headlines | 200–900 var | yes | latin, cyrillic, greek, vietnamese | OFL |
-| [IBM Plex Serif](https://github.com/IBM/plex) | serif | technical, literary | body, headlines | 100–700 var | yes | latin, cyrillic, vietnamese | OFL |
-| [Libertinus](https://github.com/alerque/libertinus) | serif | literary | body | 400–700 | yes | latin, cyrillic, greek, hebrew, vietnamese | OFL |
-| [Cormorant](https://github.com/CatharsisFonts/Cormorant) | serif | elegant, literary | headlines, logos | 300–700 var | yes | latin, cyrillic, vietnamese | OFL |
-| [Junicode](https://github.com/psb1558/Junicode-font) | serif | literary, retro | body, headlines | 300–700 var | yes | latin, greek, vietnamese | OFL |
+| [League Spartan](https://github.com/theleagueof/league-spartan) | sans | loud, retro | headlines, logos, posters | 100–900 var | no | latin, latin-ext, vietnamese | OFL |
+| [Switzer](https://www.fontshare.com/fonts/switzer) | sans | neutral | ui, body, headlines | 100–900 var | yes | latin, latin-ext | FFL |
+| [Supreme](https://www.fontshare.com/fonts/supreme) | sans | technical, neutral | ui, headlines | 100–800 var | yes | latin, latin-ext | FFL |
+| [Synonym](https://www.fontshare.com/fonts/synonym) | sans | warm, editorial | headlines, body, logos | 200–700 var | no | latin, latin-ext | FFL |
+| [Technor](https://www.fontshare.com/fonts/technor) | sans | technical, retro | headlines, logos, posters | 200–900 var | no | latin, latin-ext | FFL |
+| [Ranade](https://www.fontshare.com/fonts/ranade) | sans | neutral, editorial | body, ui, headlines | 100–700 var | yes | latin, latin-ext | FFL |
+| [Author](https://www.fontshare.com/fonts/author) | sans | warm, literary | body, headlines | 200–700 var | yes | latin, latin-ext | FFL |
+| [Plein](https://www.fontshare.com/fonts/plein) | sans | warm, neutral | body, ui | 300–900 var | yes | latin, latin-ext | FFL |
+| [Alpino](https://www.fontshare.com/fonts/alpino) | sans | editorial, warm | headlines, body | 100–900 var | no | latin, latin-ext | FFL |
+| [Source Serif 4](https://github.com/adobe-fonts/source-serif) | serif | literary, neutral | body, headlines | 200–900 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [IBM Plex Serif](https://github.com/IBM/plex) | serif | technical, literary | body, headlines | 100–700 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
+| [Libertinus](https://github.com/alerque/libertinus) | serif | literary | body | 400–700 | yes | latin, latin-ext, cyrillic, greek, vietnamese, hebrew | OFL |
+| [Cormorant](https://github.com/CatharsisFonts/Cormorant) | serif | elegant, literary | headlines, logos | 300–700 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
+| [Junicode](https://github.com/psb1558/Junicode-font) | serif | literary, retro | body, headlines | 300–700 var | yes | latin, latin-ext, greek, vietnamese | OFL |
 | [Bagnard](https://github.com/sebsan/Bagnard) | serif | retro, editorial | headlines, logos | 400 | no | latin | OFL |
 | [Avara](https://gitlab.com/velvetyne/Avara) | serif | experimental, editorial | headlines, posters | 700–900 | yes | latin | OFL |
 | [Happy Times at the IKOB](https://gitlab.com/velvetyne/Happy-Times-at-the-IKOB) | serif | playful, editorial | headlines, body | 400–700 | yes | latin | OFL |
-| [Sorts Mill Goudy](https://github.com/theleagueof/sorts-mill-goudy) | serif | literary, warm | body | 400 | yes | latin | OFL |
-| [Linden Hill](https://github.com/theleagueof/linden-hill) | serif | literary, elegant | body, headlines | 400 | yes | latin | OFL |
-| [Gambetta](https://www.fontshare.com/fonts/gambetta) | serif | editorial, literary | body, headlines | 300–700 var | yes | latin | FFL |
-| [Zodiak](https://www.fontshare.com/fonts/zodiak) | serif | editorial | headlines, body, posters | 100–900 var | yes | latin | FFL |
-| [Erode](https://www.fontshare.com/fonts/erode) | serif | editorial, elegant | headlines, body | 300–700 var | yes | latin | FFL |
-| [Sentient](https://www.fontshare.com/fonts/sentient) | serif | literary, warm | body | 200–700 var | yes | latin | FFL |
-| [Gambarino](https://www.fontshare.com/fonts/gambarino) | serif | elegant, editorial | headlines, logos | 400 | no | latin | FFL |
-| [Recia](https://www.fontshare.com/fonts/recia) | serif | neutral, literary | body, ui | 300–700 var | yes | latin | FFL |
-| [Bespoke Serif](https://www.fontshare.com/fonts/bespoke-serif) | serif | literary, neutral | body | 300–800 var | yes | latin | FFL |
-| [Boska](https://www.fontshare.com/fonts/boska) | serif | elegant, editorial | headlines, posters, logos | 200–900 var | yes | latin | FFL |
-| [Trench Slab](https://www.fontshare.com/fonts/trench-slab) | serif | technical, editorial | headlines, logos | 300–700 var | no | latin | FFL |
-| [Hoover](https://www.fontshare.com/fonts/hoover) | serif | retro, loud | headlines, logos, posters | 100–700 var | no | latin | FFL |
-| [Ouroboros](https://gitlab.com/velvetyne/ouroboros) | display | experimental, retro | posters, logos, headlines | 400 | no | latin, cyrillic, vietnamese | OFL |
-| [Basteleur](https://gitlab.com/velvetyne/basteleur) | display | retro, playful | posters, headlines, logos | 300–700 | no | latin, greek | OFL |
+| [Sorts Mill Goudy](https://github.com/theleagueof/sorts-mill-goudy) | serif | literary, warm | body | 400 | yes | latin, latin-ext | OFL |
+| [Linden Hill](https://github.com/theleagueof/linden-hill) | serif | literary, elegant | body, headlines | 400 | yes | latin, latin-ext | OFL |
+| [Gambetta](https://www.fontshare.com/fonts/gambetta) | serif | editorial, literary | body, headlines | 300–700 var | yes | latin, latin-ext | FFL |
+| [Zodiak](https://www.fontshare.com/fonts/zodiak) | serif | editorial | headlines, body, posters | 100–900 var | yes | latin, latin-ext | FFL |
+| [Erode](https://www.fontshare.com/fonts/erode) | serif | editorial, elegant | headlines, body | 300–700 var | yes | latin, latin-ext | FFL |
+| [Sentient](https://www.fontshare.com/fonts/sentient) | serif | literary, warm | body | 200–700 var | yes | latin, latin-ext | FFL |
+| [Gambarino](https://www.fontshare.com/fonts/gambarino) | serif | elegant, editorial | headlines, logos | 400 | no | latin, latin-ext | FFL |
+| [Recia](https://www.fontshare.com/fonts/recia) | serif | neutral, literary | body, ui | 300–700 var | yes | latin, latin-ext | FFL |
+| [Bespoke Serif](https://www.fontshare.com/fonts/bespoke-serif) | serif | literary, neutral | body | 300–800 var | yes | latin, latin-ext | FFL |
+| [Boska](https://www.fontshare.com/fonts/boska) | serif | elegant, editorial | headlines, posters, logos | 200–900 var | yes | latin, latin-ext | FFL |
+| [Trench Slab](https://www.fontshare.com/fonts/trench-slab) | serif | technical, editorial | headlines, logos | 300–700 var | no | latin, latin-ext | FFL |
+| [Hoover](https://www.fontshare.com/fonts/hoover) | serif | retro, loud | headlines, logos, posters | 100–700 var | no | latin, latin-ext | FFL |
+| [Ouroboros](https://gitlab.com/velvetyne/ouroboros) | display | experimental, retro | posters, logos, headlines | 400 | no | latin, latin-ext, cyrillic, vietnamese | OFL |
+| [Basteleur](https://gitlab.com/velvetyne/basteleur) | display | retro, playful | posters, headlines, logos | 300–700 | no | latin, latin-ext, greek | OFL |
 | [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque) | display | retro, experimental | posters, headlines | 400 | no | latin | OFL |
-| [Le Murmure](https://gitlab.com/velvetyne/murmure) | display | editorial, experimental | posters, headlines | 400 | no | latin, cyrillic, greek | OFL |
-| [Sligoil](https://gitlab.com/velvetyne/sligoil) | mono | technical, retro | code, ui | 400–700 var | no | latin, vietnamese | OFL |
-| [League Gothic](https://github.com/theleagueof/league-gothic) | display | loud, retro | posters, headlines | 400 var | no | latin, vietnamese | OFL |
+| [Le Murmure](https://gitlab.com/velvetyne/murmure) | display | editorial, experimental | posters, headlines | 400 | no | latin, latin-ext, cyrillic, greek | OFL |
+| [Sligoil](https://gitlab.com/velvetyne/sligoil) | mono | technical, retro | code, ui | 400–700 var | no | latin, latin-ext, vietnamese | OFL |
+| [League Gothic](https://github.com/theleagueof/league-gothic) | display | loud, retro | posters, headlines | 400 var | no | latin, latin-ext, vietnamese | OFL |
 | [Ostrich Sans](https://github.com/theleagueof/ostrich-sans) | display | loud, playful | posters, headlines | 300–900 | no | latin | OFL |
 | [Knewave](https://github.com/theleagueof/knewave) | display | playful, loud | posters, logos | 400 | no | latin | OFL |
-| [Tanker](https://www.fontshare.com/fonts/tanker) | display | loud, experimental | posters, headlines, logos | 400 | no | latin | FFL |
-| [Panchang](https://www.fontshare.com/fonts/panchang) | display | loud, technical | posters, headlines, logos | 200–800 var | no | latin | FFL |
-| [Aktura](https://www.fontshare.com/fonts/aktura) | display | retro, experimental | logos, posters | 400 | no | latin | FFL |
-| [Zina](https://www.fontshare.com/fonts/zina) | display | elegant, retro | logos, posters, headlines | 400 | no | latin | FFL |
-| [Kola](https://www.fontshare.com/fonts/kola) | display | technical, playful | headlines, logos | 400 | no | latin | FFL |
-| [Melodrama](https://www.fontshare.com/fonts/melodrama) | display | elegant, editorial | headlines, posters, logos | 300–700 var | no | latin | FFL |
-| [Segment](https://www.fontshare.com/fonts/segment) | display | retro, technical | posters, logos | 400 | no | latin | FFL |
-| [Commit Mono](https://commitmono.com) | mono | neutral, technical | code, ui | 200–700 | yes | latin | OFL |
-| [Monaspace](https://github.com/githubnext/monaspace) | mono | technical, playful | code, ui | 200–800 var | yes | latin | OFL |
-| [Departure Mono](https://departuremono.com) | mono | technical, retro | code, posters | 400 | no | latin, cyrillic, greek | OFL |
-| [Intel One Mono](https://github.com/intel/intel-one-mono) | mono | neutral, warm | code, accessible | 300–700 var | yes | latin, vietnamese | OFL |
-| [iA Writer Mono / Duo / Quattro](https://github.com/iaolo/iA-Fonts) | mono | literary, neutral | body, code | 400–700 var | yes | latin, cyrillic, vietnamese | OFL |
-| [Recursive](https://github.com/arrowtype/recursive) | mono | playful, warm | code, ui, headlines | 300–900 var | yes | latin, vietnamese | OFL |
-| [Iosevka](https://github.com/be5invis/Iosevka) | mono | technical | code | 100–900 | yes | latin, cyrillic, greek | OFL |
-| [Victor Mono](https://rubjo.github.io/victor-mono) | mono | playful, technical | code | 100–700 var | yes | latin, cyrillic, greek, vietnamese | OFL |
-| [IBM Plex Mono](https://github.com/IBM/plex) | mono | technical, warm | code, ui, body | 100–700 var | yes | latin, cyrillic, vietnamese | OFL |
+| [Tanker](https://www.fontshare.com/fonts/tanker) | display | loud, experimental | posters, headlines, logos | 400 | no | latin, latin-ext | FFL |
+| [Panchang](https://www.fontshare.com/fonts/panchang) | display | loud, technical | posters, headlines, logos | 200–800 var | no | latin, latin-ext | FFL |
+| [Aktura](https://www.fontshare.com/fonts/aktura) | display | retro, experimental | logos, posters | 400 | no | latin, latin-ext | FFL |
+| [Zina](https://www.fontshare.com/fonts/zina) | display | elegant, retro | logos, posters, headlines | 400 | no | latin, latin-ext | FFL |
+| [Kola](https://www.fontshare.com/fonts/kola) | display | technical, playful | headlines, logos | 400 | no | latin, latin-ext | FFL |
+| [Melodrama](https://www.fontshare.com/fonts/melodrama) | display | elegant, editorial | headlines, posters, logos | 300–700 var | no | latin, latin-ext | FFL |
+| [Segment](https://www.fontshare.com/fonts/segment) | display | retro, technical | posters, logos | 400 | no | latin, latin-ext | FFL |
+| [Commit Mono](https://commitmono.com) | mono | neutral, technical | code, ui | 200–700 | yes | latin, latin-ext, greek | OFL |
+| [Monaspace](https://github.com/githubnext/monaspace) | mono | technical, playful | code, ui | 200–800 var | yes | latin, latin-ext | OFL |
+| [Departure Mono](https://departuremono.com) | mono | technical, retro | code, posters | 400 | no | latin, latin-ext, cyrillic, greek | OFL |
+| [Intel One Mono](https://github.com/intel/intel-one-mono) | mono | neutral, warm | code, accessible | 300–700 var | yes | latin, latin-ext, vietnamese | OFL |
+| [iA Writer Mono / Duo / Quattro](https://github.com/iaolo/iA-Fonts) | mono | literary, neutral | body, code | 400–700 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
+| [Recursive](https://github.com/arrowtype/recursive) | mono | playful, warm | code, ui, headlines | 300–900 var | yes | latin, latin-ext, vietnamese | OFL |
+| [Iosevka](https://github.com/be5invis/Iosevka) | mono | technical | code | 100–900 | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [Victor Mono](https://rubjo.github.io/victor-mono) | mono | playful, technical | code | 100–700 var | yes | latin, latin-ext, cyrillic, greek, vietnamese | OFL |
+| [IBM Plex Mono](https://github.com/IBM/plex) | mono | technical, warm | code, ui, body | 100–700 var | yes | latin, latin-ext, cyrillic, vietnamese | OFL |
 | [Steps Mono](https://github.com/raphaelbastide/steps-mono) | mono | technical, neutral | headlines, posters | 100–400 | no | latin | OFL |
 
 ⚠︎ = tags not yet reviewed by a human.

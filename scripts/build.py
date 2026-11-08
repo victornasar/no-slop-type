@@ -24,7 +24,7 @@ REQUIRED = {
     "italics": bool, "scripts": list,
 }
 OPTIONAL = {"caveats": (str, type(None)), "review": bool}
-SCRIPTS = {"latin", "cyrillic", "greek", "vietnamese", "hebrew", "arabic", "devanagari"}
+SCRIPTS = {"latin", "latin-ext", "cyrillic", "greek", "vietnamese", "hebrew", "arabic", "devanagari"}
 
 
 def validate(data):
@@ -76,6 +76,8 @@ def validate(data):
                     errors.append(f"{where}: '{key}' tag '{t}' not in vocab")
         if not f["weights"] or f["weights"] != sorted(set(f["weights"])):
             errors.append(f"{where}: weights must be a sorted, non-empty list")
+        if "latin-ext" in f["scripts"] and "latin" not in f["scripts"]:
+            errors.append(f"{where}: latin-ext requires latin")
         for s in f["scripts"]:
             if s not in SCRIPTS:
                 errors.append(f"{where}: script '{s}' not in {sorted(SCRIPTS)}")
