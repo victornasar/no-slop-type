@@ -1,0 +1,324 @@
+[
+  {
+    "name": "Atkinson Hyperlegible Next",
+    "by": "Braille Institute",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://www.brailleinstitute.org/freefont"
+  },
+  {
+    "name": "Public Sans",
+    "by": "U.S. Web Design System",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://github.com/uswds/public-sans"
+  },
+  {
+    "name": "Mona Sans / Hubot Sans",
+    "by": "GitHub",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://github.com/github/mona-sans"
+  },
+  {
+    "name": "IBM Plex Sans",
+    "by": "IBM",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://github.com/IBM/plex"
+  },
+  {
+    "name": "Red Hat Display / Text",
+    "by": "Red Hat",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://github.com/RedHatOfficial/RedHatFont"
+  },
+  {
+    "name": "Overpass",
+    "by": "Red Hat / Delve",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://github.com/RedHatOfficial/Overpass"
+  },
+  {
+    "name": "Source Sans 3",
+    "by": "Adobe",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://github.com/adobe-fonts/source-sans"
+  },
+  {
+    "name": "Karrik",
+    "by": "Velvetyne",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Sporting Grotesque",
+    "by": "Velvetyne",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "League Spartan",
+    "by": "The League of Moveable Type",
+    "category": "sans",
+    "license": "OFL",
+    "url": "https://www.theleagueofmoveabletype.com"
+  },
+  {
+    "name": "Switzer",
+    "by": "Indian Type Foundry",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "General Sans",
+    "by": "Indian Type Foundry",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Cabinet Grotesk",
+    "by": "Indian Type Foundry",
+    "category": "sans",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Source Serif 4",
+    "by": "Adobe",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://github.com/adobe-fonts/source-serif"
+  },
+  {
+    "name": "IBM Plex Serif",
+    "by": "IBM",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://github.com/IBM/plex"
+  },
+  {
+    "name": "Libertinus",
+    "by": "Khaled Hosny, Caleb Maclennan",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://github.com/alerque/libertinus"
+  },
+  {
+    "name": "Cormorant",
+    "by": "Christian Thalmann",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://github.com/CatharsisFonts/Cormorant"
+  },
+  {
+    "name": "Junicode",
+    "by": "Peter Baker",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://github.com/psb1558/Junicode-font"
+  },
+  {
+    "name": "Bagnard",
+    "by": "Sébastien Sanfilippo",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://github.com/sebsan/Bagnard"
+  },
+  {
+    "name": "Avara",
+    "by": "Velvetyne",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Happy Times at the IKOB",
+    "by": "Velvetyne",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Sorts Mill Goudy",
+    "by": "The League of Moveable Type",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://www.theleagueofmoveabletype.com"
+  },
+  {
+    "name": "Linden Hill",
+    "by": "The League of Moveable Type",
+    "category": "serif",
+    "license": "OFL",
+    "url": "https://www.theleagueofmoveabletype.com"
+  },
+  {
+    "name": "Gambetta",
+    "by": "Indian Type Foundry",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Zodiak",
+    "by": "Indian Type Foundry",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Erode",
+    "by": "Indian Type Foundry",
+    "category": "serif",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Ouroboros",
+    "by": "Velvetyne",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Basteleur",
+    "by": "Velvetyne",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Terminal Grotesque",
+    "by": "Velvetyne",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Le Murmure",
+    "by": "Velvetyne",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "Sligoil",
+    "by": "Velvetyne",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  },
+  {
+    "name": "League Gothic",
+    "by": "The League of Moveable Type",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://www.theleagueofmoveabletype.com"
+  },
+  {
+    "name": "Ostrich Sans",
+    "by": "The League of Moveable Type",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://www.theleagueofmoveabletype.com"
+  },
+  {
+    "name": "Knewave",
+    "by": "The League of Moveable Type",
+    "category": "display",
+    "license": "OFL",
+    "url": "https://www.theleagueofmoveabletype.com"
+  },
+  {
+    "name": "Tanker",
+    "by": "Indian Type Foundry",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Panchang",
+    "by": "Indian Type Foundry",
+    "category": "display",
+    "license": "FFL",
+    "url": "https://www.fontshare.com"
+  },
+  {
+    "name": "Commit Mono",
+    "by": "Eigil Nikolajsen",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://commitmono.com"
+  },
+  {
+    "name": "Monaspace",
+    "by": "GitHub Next",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://github.com/githubnext/monaspace"
+  },
+  {
+    "name": "Departure Mono",
+    "by": "Helena Zhang",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://departuremono.com"
+  },
+  {
+    "name": "Intel One Mono",
+    "by": "Intel / Frere-Jones Type",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://github.com/intel/intel-one-mono"
+  },
+  {
+    "name": "iA Writer Mono / Duo / Quattro",
+    "by": "iA",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://github.com/iaolo/iA-Fonts"
+  },
+  {
+    "name": "Recursive",
+    "by": "Arrow Type",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://github.com/arrowtype/recursive"
+  },
+  {
+    "name": "Iosevka",
+    "by": "Belleve Invis",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://github.com/be5invis/Iosevka"
+  },
+  {
+    "name": "Victor Mono",
+    "by": "Rune Bjørnerås",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://rubjo.github.io/victor-mono"
+  },
+  {
+    "name": "IBM Plex Mono",
+    "by": "IBM",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://github.com/IBM/plex"
+  },
+  {
+    "name": "Steps Mono",
+    "by": "Velvetyne",
+    "category": "mono",
+    "license": "OFL",
+    "url": "https://velvetyne.fr"
+  }
+]

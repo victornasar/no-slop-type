@@ -1,0 +1,30 @@
+/*
+  Self-hosted fonts. Put .woff2 files in ./fonts/ next to this file.
+  Example below uses Bagnard (serif) + Commit Mono. Swap in your picks.
+*/
+
+@font-face {
+  font-family: "Bagnard";
+  src: url("./fonts/Bagnard.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Commit Mono";
+  src: url("./fonts/CommitMono-400-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-display: "Bagnard", Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Commit Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+body { font-family: var(--font-body); }
+h1, h2, h3 { font-family: var(--font-display); }
+code, pre, kbd { font-family: var(--font-mono); }
