@@ -170,8 +170,10 @@ App interfaces, dashboards, small labels.
 - [Ranade](https://www.fontshare.com/fonts/ranade): *sans*, neutral, editorial (FFL). Neo-grotesque with high-contrast diagonals, a little kick that sets it apart from Helvetica clones.
 - [Plein](https://www.fontshare.com/fonts/plein): *sans*, warm, neutral (FFL). Monolinear humanist sans with open, pleasant forms. An alternative to DM Sans.
 - [Recia](https://www.fontshare.com/fonts/recia): *serif*, neutral, literary (FFL). Low-contrast, slightly condensed contemporary serif with true cursive italics. A serif that works on screens.
+- [Sligoil](https://gitlab.com/velvetyne/sligoil): *mono*, technical, retro (no italics). Funky monospace with large inktraps. Made for a game interface; carries whiskey-sign and Space Cadet keyboard DNA. Includes upright italic forms.
 - [Commit Mono](https://commitmono.com): *mono*, neutral, technical. Neutral, anonymous coding font with smart kerning. Configurable on the site before download. An alternative to JetBrains Mono.
 - [Monaspace](https://github.com/githubnext/monaspace): *mono*, technical, playful. Five metric-compatible monos (Neon, Argon, Xenon, Radon, Krypton) you can mix in one editor, e.g. a handwriting-style mono for comments.
+- [Departure Mono](https://departuremono.com): *mono*, technical, retro (no italics). Monospaced pixel font with a lo-fi techy vibe. Strong for code, terminals, retro interfaces and sci-fi moments.
 - [Recursive](https://github.com/arrowtype/recursive): *mono*, playful, warm. One variable font that slides from sans to mono and from linear to casual brush. Great for friendly dev brands.
 - [IBM Plex Mono](https://github.com/IBM/plex): *mono*, technical, warm. Mono with a slightly humanist italic. Works for code and for tech-flavoured UI labels.
 - [Atkinson Hyperlegible Next](https://www.brailleinstitute.org/freefont): *sans*, warm, neutral. Made for low-vision readers: every confusable letter (I l 1, O 0) is distinct. A humane alternative to Inter for UI.
@@ -196,11 +198,9 @@ Section titles and large text inside a page.
 - [Boska](https://www.fontshare.com/fonts/boska): *serif*, elegant, editorial (FFL). High-contrast Didone with a pointed-pen flourish. Fashion-magazine elegance. An alternative to Playfair Display.
 - [Trench Slab](https://www.fontshare.com/fonts/trench-slab): *serif*, technical, editorial (FFL, no italics). Slab serif with big, prominent ink traps that become a visible style at large sizes.
 - [Hoover](https://www.fontshare.com/fonts/hoover): *serif*, retro, loud (FFL, no italics). Monolinear slab with no curves at all. Pure American collegiate and varsity-jacket lettering.
-- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, experimental, elegant (no italics, unreviewed). Medieval-inspired serif with wild, sharp details; Moonlight is delicate, Bold is gothic drama.
-- [Sligoil](https://gitlab.com/velvetyne/sligoil): *display*, experimental, technical (no italics, unreviewed). Based on slug-shaped, gel-like forms; monospace-ish and alien. Ships a variable font.
 - [Kola](https://www.fontshare.com/fonts/kola): *display*, technical, playful (FFL, no italics). Rounded techno stencil sans, a bit like LED signage. Large x-height keeps it readable.
 - [Melodrama](https://www.fontshare.com/fonts/melodrama): *display*, elegant, editorial (FFL, no italics). Sans with extreme contrast that grows with weight. Glamorous and theatrical.
-- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, experimental, retro (no italics, unreviewed). Stepped, angular mono. More art piece than coding font.
+- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, technical, neutral (no italics). Clean collaborative monospace made for the magazine étapes:. More restrained than most Velvetyne monos.
 - [Mona Sans / Hubot Sans](https://github.com/github/mona-sans): *sans*, neutral, technical. GitHub's variable grotesque with a width axis, so one family covers condensed headlines and normal UI. Hubot Sans is its squarer, more mechanical sibling.
 - [Red Hat Display / Text](https://github.com/RedHatOfficial/RedHatFont): *sans*, warm, neutral. Friendly geometric-humanist pair: Display for big sizes, Text for small. An alternative to Poppins or Montserrat.
 - [Overpass](https://github.com/RedHatOfficial/Overpass): *sans*, technical, neutral. Based on US highway signage (Highway Gothic): open, legible, a little civic. Has a matching mono.
@@ -211,15 +211,16 @@ Section titles and large text inside a page.
 - [Junicode](https://github.com/psb1558/Junicode-font): *serif*, literary, retro. Scholar's old-style serif with massive medieval and linguistic coverage. Old-world without being a costume, but clearly academic in flavour.
 - [Linden Hill](https://github.com/theleagueof/linden-hill): *serif*, literary, elegant. A revival of Goudy's Deepdene: graceful, slightly calligraphic old-style serif.
 - [Gambetta](https://www.fontshare.com/fonts/gambetta): *serif*, editorial, literary (FFL). Text serif with diagonal stress and contrast that grows with weight. Newspaper-grade reading.
+- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, retro, playful (no italics). Medieval-meets-Cooper-Black serif designed with the Tarot de Marseille in mind. Soft Bold and sharper Moonlight. Strong personality for covers and posters.
 - [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque): *display*, retro, experimental (no italics). Rough pixel grotesque, cyberpunk zine energy.
 - [Le Murmure](https://gitlab.com/velvetyne/murmure): *display*, editorial, experimental (no italics). Tall, narrow display face with alternate letters. Made for a Paris agency; fashion-poster attitude.
 - [League Gothic](https://github.com/theleagueof/league-gothic): *display*, loud, retro (no italics). Tall condensed gothic (an Alternate Gothic revival) with a width axis. Classic newspaper and poster shout. An alternative to Bebas Neue and Oswald.
 - [Ostrich Sans](https://github.com/theleagueof/ostrich-sans): *display*, loud, playful (no italics). Ultra-condensed caps with rounded, inline and dashed variants. Fun, tall and skinny.
 - [Tanker](https://www.fontshare.com/fonts/tanker): *display*, loud, experimental (FFL, no italics). Condensed caps-only sans: the lowercase keys type classic caps and the uppercase keys type dynamic, experimental ones.
 - [Panchang](https://www.fontshare.com/fonts/panchang): *display*, loud, technical (FFL, no italics). Ultra-wide, almost panoramic sans. Industrial and very confident.
-- [Departure Mono](https://departuremono.com): *mono*, retro, technical (no italics, unreviewed). Pixel monospace inspired by old computers and NASA. Charming at its native pixel sizes.
 - [Switzer](https://www.fontshare.com/fonts/switzer): *sans*, neutral (FFL). Classic neo-grotesque with 9 weights and true italics. The quieter, less-seen alternative to Inter and Satoshi.
 - [Ranade](https://www.fontshare.com/fonts/ranade): *sans*, neutral, editorial (FFL). Neo-grotesque with high-contrast diagonals, a little kick that sets it apart from Helvetica clones.
+- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, experimental, retro (no italics). Art-nouveau-ish display face with alchemical and astronomical symbols. Made for the weird and the occult.
 - [Zina](https://www.fontshare.com/fonts/zina): *display*, elegant, retro (FFL, no italics). Stately inline Didone with ball terminals. Early-1800s grandeur.
 - [Recursive](https://github.com/arrowtype/recursive): *mono*, playful, warm. One variable font that slides from sans to mono and from linear to casual brush. Great for friendly dev brands.
 
@@ -227,7 +228,8 @@ Section titles and large text inside a page.
 
 Hero text, covers, one-word big moments.
 
-- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, experimental (no italics, unreviewed). Looping, snake-like letterforms. Strange, organic, impossible to mistake for a template.
+- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, experimental, retro (no italics). Art-nouveau-ish display face with alchemical and astronomical symbols. Made for the weird and the occult.
+- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, retro, playful (no italics). Medieval-meets-Cooper-Black serif designed with the Tarot de Marseille in mind. Soft Bold and sharper Moonlight. Strong personality for covers and posters.
 - [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque): *display*, retro, experimental (no italics). Rough pixel grotesque, cyberpunk zine energy.
 - [Le Murmure](https://gitlab.com/velvetyne/murmure): *display*, editorial, experimental (no italics). Tall, narrow display face with alternate letters. Made for a Paris agency; fashion-poster attitude.
 - [League Gothic](https://github.com/theleagueof/league-gothic): *display*, loud, retro (no italics). Tall condensed gothic (an Alternate Gothic revival) with a width axis. Classic newspaper and poster shout. An alternative to Bebas Neue and Oswald.
@@ -239,18 +241,16 @@ Hero text, covers, one-word big moments.
 - [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, experimental, retro. Deliberately clumsy early-sans revival with uneven widths and missing optical corrections. Feels like faded road signs and ghost-town lettering.
 - [Avara](https://gitlab.com/velvetyne/Avara): *serif*, experimental, editorial. A curveless serif: every curve drawn as straight segments. Classic silhouette, faceted up close.
 - [Boska](https://www.fontshare.com/fonts/boska): *serif*, elegant, editorial (FFL). High-contrast Didone with a pointed-pen flourish. Fashion-magazine elegance. An alternative to Playfair Display.
-- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, experimental, elegant (no italics, unreviewed). Medieval-inspired serif with wild, sharp details; Moonlight is delicate, Bold is gothic drama.
-- [Sligoil](https://gitlab.com/velvetyne/sligoil): *display*, experimental, technical (no italics, unreviewed). Based on slug-shaped, gel-like forms; monospace-ish and alien. Ships a variable font.
 - [Aktura](https://www.fontshare.com/fonts/aktura): *display*, retro, experimental (FFL, no italics). Modern blackletter with ornate Lombardic capitals. Newspaper nameplate, diploma or metal band.
 - [Zina](https://www.fontshare.com/fonts/zina): *display*, elegant, retro (FFL, no italics). Stately inline Didone with ball terminals. Early-1800s grandeur.
 - [Melodrama](https://www.fontshare.com/fonts/melodrama): *display*, elegant, editorial (FFL, no italics). Sans with extreme contrast that grows with weight. Glamorous and theatrical.
-- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, experimental, retro (no italics, unreviewed). Stepped, angular mono. More art piece than coding font.
+- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, technical, neutral (no italics). Clean collaborative monospace made for the magazine étapes:. More restrained than most Velvetyne monos.
 - [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, retro, editorial (no italics). Wide, slightly old-fashioned grotesque with sporty swagger and calligraphic quirks (droopy r, wedge cuts, closed apertures). Feels like a vintage club badge.
 - [League Spartan](https://github.com/theleagueof/league-spartan): *sans*, loud, retro (no italics). Bold geometric in the Futura tradition; the heaviest weights are the reason to use it.
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, technical, retro (FFL, no italics). Constructed sans with flat sides and rounded tops. Sci-fi and industrial without being a cliché.
 - [Zodiak](https://www.fontshare.com/fonts/zodiak): *serif*, editorial (FFL). Sturdy Century-style serif. Middle weights set text; the extreme thin and black weights make great display pairs.
 - [Hoover](https://www.fontshare.com/fonts/hoover): *serif*, retro, loud (FFL, no italics). Monolinear slab with no curves at all. Pure American collegiate and varsity-jacket lettering.
-- [Departure Mono](https://departuremono.com): *mono*, retro, technical (no italics, unreviewed). Pixel monospace inspired by old computers and NASA. Charming at its native pixel sizes.
+- [Departure Mono](https://departuremono.com): *mono*, technical, retro (no italics). Monospaced pixel font with a lo-fi techy vibe. Strong for code, terminals, retro interfaces and sci-fi moments.
 
 ### logos
 
@@ -266,12 +266,13 @@ Wordmarks and brand marks.
 - [Gambarino](https://www.fontshare.com/fonts/gambarino): *serif*, elegant, editorial (FFL, no italics). Condensed post-modern Garalde for headlines. Pair it with a quieter text serif or sans.
 - [Trench Slab](https://www.fontshare.com/fonts/trench-slab): *serif*, technical, editorial (FFL, no italics). Slab serif with big, prominent ink traps that become a visible style at large sizes.
 - [Hoover](https://www.fontshare.com/fonts/hoover): *serif*, retro, loud (FFL, no italics). Monolinear slab with no curves at all. Pure American collegiate and varsity-jacket lettering.
-- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, experimental (no italics, unreviewed). Looping, snake-like letterforms. Strange, organic, impossible to mistake for a template.
+- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, experimental, retro (no italics). Art-nouveau-ish display face with alchemical and astronomical symbols. Made for the weird and the occult.
 - [Knewave](https://github.com/theleagueof/knewave): *display*, playful, loud (no italics). Bold brush script with skate and surf energy.
 - [Kola](https://www.fontshare.com/fonts/kola): *display*, technical, playful (FFL, no italics). Rounded techno stencil sans, a bit like LED signage. Large x-height keeps it readable.
 - [Segment](https://www.fontshare.com/fonts/segment): *display*, retro, technical (FFL, no italics). LCD-style letters built from segments. Digital clocks, transit boards, calculators.
 - [Synonym](https://www.fontshare.com/fonts/synonym): *sans*, warm, editorial (FFL, no italics). Humanist sans with visible stroke contrast; personality without losing legibility. Made for branding and editorial.
 - [Boska](https://www.fontshare.com/fonts/boska): *serif*, elegant, editorial (FFL). High-contrast Didone with a pointed-pen flourish. Fashion-magazine elegance. An alternative to Playfair Display.
+- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, retro, playful (no italics). Medieval-meets-Cooper-Black serif designed with the Tarot de Marseille in mind. Soft Bold and sharper Moonlight. Strong personality for covers and posters.
 - [Tanker](https://www.fontshare.com/fonts/tanker): *display*, loud, experimental (FFL, no italics). Condensed caps-only sans: the lowercase keys type classic caps and the uppercase keys type dynamic, experimental ones.
 - [Panchang](https://www.fontshare.com/fonts/panchang): *display*, loud, technical (FFL, no italics). Ultra-wide, almost panoramic sans. Industrial and very confident.
 - [Melodrama](https://www.fontshare.com/fonts/melodrama): *display*, elegant, editorial (FFL, no italics). Sans with extreme contrast that grows with weight. Glamorous and theatrical.
@@ -280,9 +281,10 @@ Wordmarks and brand marks.
 
 Code blocks, terminals, data tables.
 
+- [Sligoil](https://gitlab.com/velvetyne/sligoil): *mono*, technical, retro (no italics). Funky monospace with large inktraps. Made for a game interface; carries whiskey-sign and Space Cadet keyboard DNA. Includes upright italic forms.
 - [Commit Mono](https://commitmono.com): *mono*, neutral, technical. Neutral, anonymous coding font with smart kerning. Configurable on the site before download. An alternative to JetBrains Mono.
 - [Monaspace](https://github.com/githubnext/monaspace): *mono*, technical, playful. Five metric-compatible monos (Neon, Argon, Xenon, Radon, Krypton) you can mix in one editor, e.g. a handwriting-style mono for comments.
-- [Departure Mono](https://departuremono.com): *mono*, retro, technical (no italics, unreviewed). Pixel monospace inspired by old computers and NASA. Charming at its native pixel sizes.
+- [Departure Mono](https://departuremono.com): *mono*, technical, retro (no italics). Monospaced pixel font with a lo-fi techy vibe. Strong for code, terminals, retro interfaces and sci-fi moments.
 - [Intel One Mono](https://github.com/intel/intel-one-mono): *mono*, neutral, warm. Coding font designed with and for low-vision developers. Clear, open and calm.
 - [Recursive](https://github.com/arrowtype/recursive): *mono*, playful, warm. One variable font that slides from sans to mono and from linear to casual brush. Great for friendly dev brands.
 - [Iosevka](https://github.com/be5invis/Iosevka): *mono*, technical. Narrow, highly configurable coding font. Fits lots of columns; build your own variant.
@@ -320,6 +322,7 @@ Quiet, Swiss, gets out of the way.
 - [Source Serif 4](https://github.com/adobe-fonts/source-serif): *serif*, for body, headlines
 - [Bespoke Serif](https://www.fontshare.com/fonts/bespoke-serif): *serif*, for body
 - [iA Writer Mono / Duo / Quattro](https://github.com/iaolo/iA-Fonts): *mono*, for body, code
+- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, for headlines, posters
 
 ### warm
 
@@ -348,16 +351,17 @@ Engineered, precise, a bit cold.
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, for headlines, logos, posters
 - [IBM Plex Serif](https://github.com/IBM/plex): *serif*, for body, headlines
 - [Trench Slab](https://www.fontshare.com/fonts/trench-slab): *serif*, for headlines, logos
+- [Sligoil](https://gitlab.com/velvetyne/sligoil): *mono*, for code, ui
 - [Kola](https://www.fontshare.com/fonts/kola): *display*, for headlines, logos
 - [Monaspace](https://github.com/githubnext/monaspace): *mono*, for code, ui
+- [Departure Mono](https://departuremono.com): *mono*, for code, ui, posters
 - [Iosevka](https://github.com/be5invis/Iosevka): *mono*, for code
 - [IBM Plex Mono](https://github.com/IBM/plex): *mono*, for code, ui, body
+- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, for headlines, posters
 - [Mona Sans / Hubot Sans](https://github.com/github/mona-sans): *sans*, for ui, headlines, body
-- [Sligoil](https://gitlab.com/velvetyne/sligoil): *display*, for headlines, posters
 - [Panchang](https://www.fontshare.com/fonts/panchang): *display*, for posters, headlines, logos
 - [Segment](https://www.fontshare.com/fonts/segment): *display*, for posters, logos
 - [Commit Mono](https://commitmono.com): *mono*, for code, ui
-- [Departure Mono](https://departuremono.com): *mono*, for code, headlines, posters
 - [Victor Mono](https://rubjo.github.io/victor-mono): *mono*, for code
 
 ### literary
@@ -409,7 +413,6 @@ High contrast, refined, a little luxurious.
 - [Melodrama](https://www.fontshare.com/fonts/melodrama): *display*, for headlines, posters, logos
 - [Linden Hill](https://github.com/theleagueof/linden-hill): *serif*, for body, headlines
 - [Erode](https://www.fontshare.com/fonts/erode): *serif*, for headlines, body
-- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, for headlines, posters
 
 ### loud
 
@@ -431,6 +434,7 @@ Quirky, bouncy, fun.
 - [Knewave](https://github.com/theleagueof/knewave): *display*, for posters, logos
 - [Recursive](https://github.com/arrowtype/recursive): *mono*, for code, ui, headlines
 - [Victor Mono](https://rubjo.github.io/victor-mono): *mono*, for code
+- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, for posters, headlines, logos
 - [Ostrich Sans](https://github.com/theleagueof/ostrich-sans): *display*, for posters, headlines
 - [Kola](https://www.fontshare.com/fonts/kola): *display*, for headlines, logos
 - [Monaspace](https://github.com/githubnext/monaspace): *mono*, for code, ui
@@ -441,10 +445,7 @@ Weird, art-school, rule-breaking.
 
 - [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, for headlines, posters
 - [Avara](https://gitlab.com/velvetyne/Avara): *serif*, for headlines, posters
-- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, for posters, logos
-- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, for headlines, posters
-- [Sligoil](https://gitlab.com/velvetyne/sligoil): *display*, for headlines, posters
-- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, for headlines, posters
+- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, for posters, logos, headlines
 - [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque): *display*, for posters, headlines
 - [Le Murmure](https://gitlab.com/velvetyne/murmure): *display*, for posters, headlines
 - [Tanker](https://www.fontshare.com/fonts/tanker): *display*, for posters, headlines, logos
@@ -457,17 +458,19 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 - [Sporting Grotesque](https://gitlab.com/velvetyne/Sporting-Grotesque): *sans*, for headlines, logos, posters
 - [Bagnard](https://github.com/sebsan/Bagnard): *serif*, for headlines, logos
 - [Hoover](https://www.fontshare.com/fonts/hoover): *serif*, for headlines, logos, posters
+- [Basteleur](https://gitlab.com/velvetyne/basteleur): *display*, for posters, headlines, logos
 - [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque): *display*, for posters, headlines
 - [Aktura](https://www.fontshare.com/fonts/aktura): *display*, for logos, posters
 - [Segment](https://www.fontshare.com/fonts/segment): *display*, for posters, logos
-- [Departure Mono](https://departuremono.com): *mono*, for code, headlines, posters
 - [Karrik](https://velvetyne.fr/fonts/karrik/): *sans*, for headlines, posters
 - [League Spartan](https://github.com/theleagueof/league-spartan): *sans*, for headlines, logos, posters
 - [Technor](https://www.fontshare.com/fonts/technor): *sans*, for headlines, logos, posters
 - [Junicode](https://github.com/psb1558/Junicode-font): *serif*, for body, headlines
+- [Ouroboros](https://gitlab.com/velvetyne/ouroboros): *display*, for posters, logos, headlines
+- [Sligoil](https://gitlab.com/velvetyne/sligoil): *mono*, for code, ui
 - [League Gothic](https://github.com/theleagueof/league-gothic): *display*, for posters, headlines
 - [Zina](https://www.fontshare.com/fonts/zina): *display*, for logos, posters, headlines
-- [Steps Mono](https://github.com/raphaelbastide/steps-mono): *mono*, for headlines, posters
+- [Departure Mono](https://departuremono.com): *mono*, for code, ui, posters
 
 ## All fonts
 
@@ -511,11 +514,11 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 | [Boska](https://www.fontshare.com/fonts/boska) | serif | elegant, editorial | headlines, posters, logos | 200–900 var | yes | latin | FFL |
 | [Trench Slab](https://www.fontshare.com/fonts/trench-slab) | serif | technical, editorial | headlines, logos | 300–700 var | no | latin | FFL |
 | [Hoover](https://www.fontshare.com/fonts/hoover) | serif | retro, loud | headlines, logos, posters | 100–700 var | no | latin | FFL |
-| [Ouroboros](https://gitlab.com/velvetyne/ouroboros) ⚠︎ | display | experimental | posters, logos | 400 | no | latin | OFL |
-| [Basteleur](https://gitlab.com/velvetyne/basteleur) ⚠︎ | display | experimental, elegant | headlines, posters | 300–700 | no | latin | OFL |
+| [Ouroboros](https://gitlab.com/velvetyne/ouroboros) | display | experimental, retro | posters, logos, headlines | 400 | no | latin, cyrillic, vietnamese | OFL |
+| [Basteleur](https://gitlab.com/velvetyne/basteleur) | display | retro, playful | posters, headlines, logos | 300–700 | no | latin, greek | OFL |
 | [Terminal Grotesque](https://github.com/StudioTriple/Terminal-Grotesque) | display | retro, experimental | posters, headlines | 400 | no | latin | OFL |
 | [Le Murmure](https://gitlab.com/velvetyne/murmure) | display | editorial, experimental | posters, headlines | 400 | no | latin | OFL |
-| [Sligoil](https://gitlab.com/velvetyne/sligoil) ⚠︎ | display | experimental, technical | headlines, posters | 400–700 var | no | latin | OFL |
+| [Sligoil](https://gitlab.com/velvetyne/sligoil) | mono | technical, retro | code, ui | 400–700 var | no | latin, vietnamese | OFL |
 | [League Gothic](https://github.com/theleagueof/league-gothic) | display | loud, retro | posters, headlines | 400 var | no | latin, vietnamese | OFL |
 | [Ostrich Sans](https://github.com/theleagueof/ostrich-sans) | display | loud, playful | posters, headlines | 300–900 | no | latin | OFL |
 | [Knewave](https://github.com/theleagueof/knewave) | display | playful, loud | posters, logos | 400 | no | latin | OFL |
@@ -528,14 +531,14 @@ Clearly from an era: pixel, terminal, LCD, collegiate, medieval.
 | [Segment](https://www.fontshare.com/fonts/segment) | display | retro, technical | posters, logos | 400 | no | latin | FFL |
 | [Commit Mono](https://commitmono.com) | mono | neutral, technical | code, ui | 200–700 | yes | latin | OFL |
 | [Monaspace](https://github.com/githubnext/monaspace) | mono | technical, playful | code, ui | 200–800 var | yes | latin | OFL |
-| [Departure Mono](https://departuremono.com) ⚠︎ | mono | retro, technical | code, headlines, posters | 400 | no | latin | OFL |
+| [Departure Mono](https://departuremono.com) | mono | technical, retro | code, ui, posters | 400 | no | latin, cyrillic, greek | OFL |
 | [Intel One Mono](https://github.com/intel/intel-one-mono) | mono | neutral, warm | code, accessible | 300–700 var | yes | latin, vietnamese | OFL |
 | [iA Writer Mono / Duo / Quattro](https://github.com/iaolo/iA-Fonts) | mono | literary, neutral | body, code | 400–700 var | yes | latin | OFL |
 | [Recursive](https://github.com/arrowtype/recursive) | mono | playful, warm | code, ui, headlines | 300–900 var | yes | latin, vietnamese | OFL |
 | [Iosevka](https://github.com/be5invis/Iosevka) | mono | technical | code | 100–900 | yes | latin, cyrillic, greek | OFL |
 | [Victor Mono](https://rubjo.github.io/victor-mono) | mono | playful, technical | code | 100–700 var | yes | latin, cyrillic, greek, vietnamese | OFL |
 | [IBM Plex Mono](https://github.com/IBM/plex) | mono | technical, warm | code, ui, body | 100–700 var | yes | latin, cyrillic, vietnamese | OFL |
-| [Steps Mono](https://github.com/raphaelbastide/steps-mono) ⚠︎ | mono | experimental, retro | headlines, posters | 100–400 | no | latin | OFL |
+| [Steps Mono](https://github.com/raphaelbastide/steps-mono) | mono | technical, neutral | headlines, posters | 100–400 | no | latin | OFL |
 
 ⚠︎ = tags not yet reviewed by a human.
 

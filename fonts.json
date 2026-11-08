@@ -643,15 +643,14 @@
       "by": "Ariel Martín Pérez (Velvetyne)",
       "license": "OFL",
       "url": "https://gitlab.com/velvetyne/ouroboros",
-      "feel": ["experimental"],
-      "use": ["posters", "logos"],
-      "note": "Looping, snake-like letterforms. Strange, organic, impossible to mistake for a template.",
+      "feel": ["experimental", "retro"],
+      "use": ["posters", "logos", "headlines"],
+      "note": "Art-nouveau-ish display face with alchemical and astronomical symbols. Made for the weird and the occult.",
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
-      "caveats": "Single style. Display only.",
-      "review": true
+      "scripts": ["latin", "cyrillic", "vietnamese"],
+      "caveats": "Highly decorative. Single weight. Best at large sizes; not for body text."
     },
     {
       "id": "basteleur",
@@ -660,15 +659,14 @@
       "by": "Keussel (Velvetyne)",
       "license": "OFL",
       "url": "https://gitlab.com/velvetyne/basteleur",
-      "feel": ["experimental", "elegant"],
-      "use": ["headlines", "posters"],
-      "note": "Medieval-inspired serif with wild, sharp details; Moonlight is delicate, Bold is gothic drama.",
+      "feel": ["retro", "playful"],
+      "use": ["posters", "headlines", "logos"],
+      "note": "Medieval-meets-Cooper-Black serif designed with the Tarot de Marseille in mind. Soft Bold and sharper Moonlight. Strong personality for covers and posters.",
       "variable": false,
       "weights": [300, 700],
       "italics": false,
-      "scripts": ["latin"],
-      "caveats": "Two styles only: Moonlight (light) and Bold.",
-      "review": true
+      "scripts": ["latin", "greek"],
+      "caveats": "Two weights only. Display-oriented; not for long reading."
     },
     {
       "id": "terminal-grotesque",
@@ -705,19 +703,18 @@
     {
       "id": "sligoil",
       "name": "Sligoil",
-      "category": "display",
+      "category": "mono",
       "by": "Ariel Martín Pérez (Velvetyne)",
       "license": "OFL",
       "url": "https://gitlab.com/velvetyne/sligoil",
-      "feel": ["experimental", "technical"],
-      "use": ["headlines", "posters"],
-      "note": "Based on slug-shaped, gel-like forms; monospace-ish and alien. Ships a variable font.",
+      "feel": ["technical", "retro"],
+      "use": ["code", "ui"],
+      "note": "Funky monospace with large inktraps. Made for a game interface; carries whiskey-sign and Space Cadet keyboard DNA. Includes upright italic forms.",
       "variable": true,
       "weights": [400, 500, 700],
       "italics": false,
-      "scripts": ["latin"],
-      "caveats": null,
-      "review": true
+      "scripts": ["latin", "vietnamese"],
+      "caveats": "Styles are named Micro, Micro Medium and Micro Bold."
     },
     {
       "id": "league-gothic",
@@ -918,15 +915,14 @@
       "by": "Helena Zhang",
       "license": "OFL",
       "url": "https://departuremono.com",
-      "feel": ["retro", "technical"],
-      "use": ["code", "headlines", "posters"],
-      "note": "Pixel monospace inspired by old computers and NASA. Charming at its native pixel sizes.",
+      "feel": ["technical", "retro"],
+      "use": ["code", "ui", "posters"],
+      "note": "Monospaced pixel font with a lo-fi techy vibe. Strong for code, terminals, retro interfaces and sci-fi moments.",
       "variable": false,
       "weights": [400],
       "italics": false,
-      "scripts": ["latin"],
-      "caveats": "Single weight. Set at multiples of 11px to keep the pixels crisp.",
-      "review": true
+      "scripts": ["latin", "cyrillic", "greek"],
+      "caveats": "Pixel font: size in increments of 11px for crisp rendering. Single weight."
     },
     {
       "id": "intel-one-mono",
@@ -1031,15 +1027,14 @@
       "by": "Jean-Baptiste Morizot, Raphaël Bastide (Velvetyne)",
       "license": "OFL",
       "url": "https://github.com/raphaelbastide/steps-mono",
-      "feel": ["experimental", "retro"],
+      "feel": ["technical", "neutral"],
       "use": ["headlines", "posters"],
-      "note": "Stepped, angular mono. More art piece than coding font.",
+      "note": "Clean collaborative monospace made for the magazine étapes:. More restrained than most Velvetyne monos.",
       "variable": false,
       "weights": [100, 400],
       "italics": false,
       "scripts": ["latin"],
-      "caveats": "Thin and Regular only. Not for real code.",
-      "review": true
+      "caveats": "Not usable for code: the files have no = @ [ ] { | } ~ (Thin also lacks &). Few accents: no ä ö ü ß ñ. Two weights only."
     }
   ],
   "avoid": [
