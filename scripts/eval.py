@@ -99,6 +99,11 @@ def score(b, answer):
     for alts in b.get("roles", []):
         if not any(r in roles for r in alts):
             fails.append(f"missing role: one of {alts}")
+    if b.get("roles"):
+        allowed = {r for alts in b["roles"] for r in alts}
+        extra = [r for r in roles if r not in allowed]
+        if extra:
+            fails.append(f"extra roles {extra}; brief asks for {b['roles']}")
 
     tops = [BY_ID[ids[0]] for ids in roles.values() if ids and ids[0] in BY_ID]
 

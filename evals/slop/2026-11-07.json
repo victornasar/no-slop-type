@@ -1,0 +1,63 @@
+{
+  "measured": "2026-11-07",
+  "sites": 30,
+  "sites_with_web_font": 16,
+  "ai_rate_counted": true,
+  "sources": {
+    "claude": 30
+  },
+  "thresholds": {
+    "ai_rate": 0.15,
+    "google_top": 40,
+    "min_font_sites": 10
+  },
+  "ai_rates": {
+    "Inter": 0.562,
+    "Fraunces": 0.5,
+    "DM Sans": 0.188,
+    "JetBrains Mono": 0.188,
+    "Inter Tight": 0.125,
+    "Instrument Serif": 0.125,
+    "Cormorant Garamond": 0.125,
+    "Jost": 0.062,
+    "Playfair Display": 0.062,
+    "IBM Plex Mono": 0.062,
+    "IBM Plex Sans": 0.062
+  },
+  "suggest_avoid_ai": [
+    "Fraunces"
+  ],
+  "suggest_avoid_web": [
+    "Google Sans",
+    "Lato",
+    "Noto Sans JP",
+    "Arimo",
+    "Roboto Condensed",
+    "Roboto Mono",
+    "Oswald",
+    "Noto Sans",
+    "Playfair Display",
+    "Raleway",
+    "Nunito",
+    "Nunito Sans",
+    "Roboto Slab",
+    "Rubik",
+    "Merriweather",
+    "Ubuntu",
+    "Kanit",
+    "Archivo Black",
+    "Noto Sans KR",
+    "Figtree",
+    "Bebas Neue"
+  ],
+  "catalog_flagged": [],
+  "avoid_below_threshold": [
+    "Geist",
+    "Space Grotesk",
+    "Instrument Serif",
+    "Satoshi",
+    "General Sans",
+    "Clash Display",
+    "Cabinet Grotesk"
+  ]
+}

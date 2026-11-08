@@ -1,52 +1,70 @@
 {
-  "_doc": "Each brief runs through /find-font. Every answer is also checked for: valid ids, the role in each font's use tags, body/ui weight and italics rules, and 3 ids per role (or every candidate if fewer). Optional fields add checks: roles (each inner list = acceptable names for one required role), scripts (every pick covers them), pair (the pairing rules apply to the top picks), replaces (top pick of the first role is in that avoid entry's instead list), public_repo (top picks are OFL or the answer warns about Fontshare and public repos), category (every pick is in it), top_use (some role's top pick has this use tag), top_feel_any (some top pick has one of these feel tags).",
+  "_doc": "Each brief runs through /find-font. Every answer is also checked for: valid ids, the role in each font's use tags, body/ui weight and italics rules, and 3 ids per role (or every candidate if fewer). Optional fields add checks: roles (each inner list = acceptable names for one required role; any other role fails as extra), scripts (every pick covers them), pair (the pairing rules apply to the top picks), replaces (top pick of the first role is in that avoid entry's instead list), public_repo (top picks are OFL or the answer warns about Fontshare and public repos), category (every pick is in it), top_use (some role's top pick has this use tag), top_feel_any (some top pick has one of these feel tags).",
   "briefs": [
     {
       "id": "bakery",
       "brief": "cozy bakery website",
-      "roles": [["headlines", "posters"], ["body"]],
+      "roles": [
+        ["headlines", "posters"],
+        ["body"]
+      ],
       "pair": true
     },
     {
       "id": "german-docs",
       "brief": "body font for long-form documentation written in German",
-      "roles": [["body"]],
+      "roles": [
+        ["body"]
+      ],
       "scripts": ["latin"]
     },
     {
       "id": "russian-blog",
       "brief": "Russian-language news blog, headlines and article text",
-      "roles": [["headlines"], ["body"]],
+      "roles": [
+        ["headlines"],
+        ["body"]
+      ],
       "scripts": ["cyrillic"]
     },
     {
       "id": "replace-inter",
       "brief": "our web app UI uses Inter, replace it",
-      "roles": [["ui"]],
+      "roles": [
+        ["ui"]
+      ],
       "replaces": "Inter"
     },
     {
       "id": "oss-logo",
       "brief": "wordmark for an open-source project; the font files will live in the public repo",
-      "roles": [["logos"]],
+      "roles": [
+        ["logos"]
+      ],
       "public_repo": true
     },
     {
       "id": "code-theme",
       "brief": "font for a code editor theme",
-      "roles": [["code"]],
+      "roles": [
+        ["code"]
+      ],
       "category": "mono"
     },
     {
       "id": "music-poster",
       "brief": "poster for an experimental electronic music night",
-      "roles": [["posters"]],
+      "roles": [
+        ["posters"]
+      ],
       "top_feel_any": ["experimental", "loud"]
     },
     {
       "id": "low-vision-dashboard",
       "brief": "analytics dashboard for a low-vision audience",
-      "roles": [["accessible", "ui"]],
+      "roles": [
+        ["accessible", "ui"]
+      ],
       "top_use": "accessible"
     }
   ]

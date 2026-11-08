@@ -30,6 +30,10 @@ Work out three things:
 Ask one short question only when the roles cannot be inferred. Feel is always inferred; a wrong guess shows up
 in the alternatives.
 
+Pick exactly the roles the brief needs: a poster brief gets `posters`, a dashboard gets `ui`. When a
+neighbouring role would obviously come next (a code font for a dev site), mention it in one line under
+**Notes** and leave it out of the table and the picks.
+
 Done when: every role has a `use` tag, there are one or two `feel` tags, and constraints are listed.
 
 ### 2. Filter

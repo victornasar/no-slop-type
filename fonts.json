@@ -1050,87 +1050,138 @@
     {
       "name": "Inter",
       "why": "The default of nearly every AI-generated UI and SaaS template.",
-      "instead": ["switzer", "public-sans", "atkinson-hyperlegible-next"]
+      "instead": ["switzer", "public-sans", "atkinson-hyperlegible-next"],
+      "ai_rate": 0.562,
+      "google_rank": 5,
+      "measured": "2026-11-07"
     },
     {
       "name": "Geist",
       "why": "Vercel's font; now the default look of AI-generated Next.js apps.",
-      "instead": ["switzer", "supreme", "mona-sans"]
+      "instead": ["switzer", "supreme", "mona-sans"],
+      "ai_rate": 0.0,
+      "google_rank": 90,
+      "measured": "2026-11-07"
     },
     {
       "name": "Space Grotesk",
       "why": "The go-to 'techy but friendly' choice in templates.",
-      "instead": ["supreme", "technor", "karrik"]
+      "instead": ["supreme", "technor", "karrik"],
+      "ai_rate": 0.0,
+      "google_rank": 62,
+      "measured": "2026-11-07"
     },
     {
       "name": "Instrument Serif",
       "why": "The default 'tasteful serif' in AI landing pages.",
-      "instead": ["erode", "gambarino", "cormorant"]
+      "instead": ["erode", "gambarino", "cormorant"],
+      "ai_rate": 0.125,
+      "google_rank": 70,
+      "measured": "2026-11-07"
     },
     {
       "name": "DM Sans",
       "why": "Ubiquitous geometric default.",
-      "instead": ["plein", "red-hat"]
+      "instead": ["plein", "red-hat"],
+      "ai_rate": 0.188,
+      "google_rank": 21,
+      "measured": "2026-11-07"
     },
     {
       "name": "Plus Jakarta Sans",
       "why": "Ubiquitous in startup templates.",
-      "instead": ["red-hat", "synonym"]
+      "instead": ["red-hat", "synonym"],
+      "ai_rate": 0.0,
+      "google_rank": 34,
+      "measured": "2026-11-07"
     },
     {
       "name": "Manrope",
       "why": "Ubiquitous in startup templates.",
-      "instead": ["switzer", "ranade"]
+      "instead": ["switzer", "ranade"],
+      "ai_rate": 0.0,
+      "google_rank": 29,
+      "measured": "2026-11-07"
     },
     {
       "name": "Outfit",
       "why": "Ubiquitous geometric default.",
-      "instead": ["red-hat", "league-spartan"]
+      "instead": ["red-hat", "league-spartan"],
+      "ai_rate": 0.0,
+      "google_rank": 31,
+      "measured": "2026-11-07"
     },
     {
       "name": "Poppins",
       "why": "The most overused geometric sans on the web.",
-      "instead": ["red-hat", "league-spartan"]
+      "instead": ["red-hat", "league-spartan"],
+      "ai_rate": 0.0,
+      "google_rank": 8,
+      "measured": "2026-11-07"
     },
     {
       "name": "Montserrat",
       "why": "The most overused display sans on the web.",
-      "instead": ["league-spartan", "panchang"]
+      "instead": ["league-spartan", "panchang"],
+      "ai_rate": 0.0,
+      "google_rank": 6,
+      "measured": "2026-11-07"
     },
     {
       "name": "Roboto",
       "why": "Android and Material default; reads as 'no decision made'.",
-      "instead": ["public-sans", "source-sans-3"]
+      "instead": ["public-sans", "source-sans-3"],
+      "ai_rate": 0.0,
+      "google_rank": 2,
+      "measured": "2026-11-07"
     },
     {
       "name": "Open Sans",
       "why": "Reads as 'no decision made'.",
-      "instead": ["source-sans-3", "plein"]
+      "instead": ["source-sans-3", "plein"],
+      "ai_rate": 0.0,
+      "google_rank": 3,
+      "measured": "2026-11-07"
     },
     {
       "name": "JetBrains Mono",
       "why": "The default mono in AI-generated code UIs.",
-      "instead": ["commit-mono", "intel-one-mono", "monaspace"]
+      "instead": ["commit-mono", "intel-one-mono", "monaspace"],
+      "ai_rate": 0.188,
+      "google_rank": 43,
+      "measured": "2026-11-07"
     },
     {
       "name": "Satoshi",
       "why": "Fontshare's most-used font; the default of Framer-style templates.",
-      "instead": ["switzer", "supreme"]
+      "instead": ["switzer", "supreme"],
+      "ai_rate": 0.0,
+      "google_rank": null,
+      "measured": "2026-11-07"
     },
     {
       "name": "General Sans",
       "why": "Heavily used in Framer-style templates.",
-      "instead": ["switzer", "plein"]
+      "instead": ["switzer", "plein"],
+      "ai_rate": 0.0,
+      "google_rank": null,
+      "measured": "2026-11-07"
     },
     {
       "name": "Clash Display",
       "why": "The default 'bold display' of Framer-style templates.",
-      "instead": ["panchang", "league-gothic", "tanker"]
+      "instead": ["panchang", "league-gothic", "tanker"],
+      "ai_rate": 0.0,
+      "google_rank": null,
+      "measured": "2026-11-07"
     },
     {
       "name": "Cabinet Grotesk",
       "why": "Heavily used in Framer-style templates.",
-      "instead": ["synonym", "sporting-grotesque"]
+      "instead": ["synonym", "sporting-grotesque"],
+      "ai_rate": 0.0,
+      "google_rank": null,
+      "measured": "2026-11-07"
     }
   ]
 }
