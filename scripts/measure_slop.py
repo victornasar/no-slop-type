@@ -8,7 +8,8 @@ Usage:
 
 A font is slop when its AI rate >= AI_RATE, or its Google Fonts popularity rank <= GOOGLE_TOP.
 AI rate = share of the generated sites that load a web font which use this font (sites on system fonts
-say nothing about which font AI picks). It only counts once MIN_FONT_SITES sites load a web font. The script:
+say nothing about which font AI picks). It only counts once MIN_FONT_SITES sites load a web font. Rates pool
+this run with earlier saved reports, so one thin sample can't overwrite the evidence. The script:
   - writes evidence (ai_rate, google_rank, measured) onto every avoid entry in fonts.json
   - saves a report to evals/slop/<date>.json and the generated sites to evals/slop/sites-<date>/
   - prints suggested avoid additions and catalog fonts crossing a threshold, for a human to decide
@@ -117,6 +118,18 @@ def google_ranks():
     return {f["family"]: f["popularity"] for f in data["familyMetadataList"] if f.get("popularity")}
 
 
+def past_counts(skip_date):
+    """Font counts and web-font sites from earlier reports. Only pure Claude runs: samples are re-read every run."""
+    counts, font_sites = Counter(), 0
+    for path in SLOP.glob("*.json"):
+        report = json.loads(path.read_text())
+        if path.stem == skip_date or set(report["sources"]) != {"claude"}:
+            continue
+        font_sites += report["sites_with_web_font"]
+        counts.update({font: round(r * report["sites_with_web_font"]) for font, r in report["ai_rates"].items()})
+    return counts, font_sites
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-claude", action="store_true")
@@ -126,11 +139,13 @@ def main():
     date = time.strftime("%Y-%m-%d")
     SLOP.mkdir(parents=True, exist_ok=True)
     sites = {}  # label -> text
+    skip = date  # the report these sites came from, so they aren't counted twice
 
     if args.no_claude:
         previous = sorted(SLOP.glob("sites-*"))
         if previous:
-            sites |= {f"claude/{p.name}": p.read_text() for p in previous[-1].glob("*.html")}
+            skip = previous[-1].name.removeprefix("sites-")
+            sites |= {f"saved/{p.name}": p.read_text() for p in previous[-1].glob("*.html")}
     else:
         out = SLOP / f"sites-{date}"
         out.mkdir(exist_ok=True)
@@ -159,6 +174,11 @@ def main():
         font_sites += bool(found)
         counts.update(found)
     n = len(sites)
+    run_sites = font_sites
+    run_rate = {font: round(c / run_sites, 3) for font, c in counts.items()} if run_sites else {}
+    past, past_sites = past_counts(skip)
+    counts += past
+    font_sites += past_sites
     enough = font_sites >= MIN_FONT_SITES
     rate = {font: round(c / font_sites, 3) for font, c in counts.items()} if font_sites else {}
 
@@ -185,19 +205,23 @@ def main():
     subprocess.run([sys.executable, str(ROOT / "scripts" / "build.py")], check=True)
 
     report = {
-        "measured": date, "sites": n, "sites_with_web_font": font_sites, "ai_rate_counted": enough,
+        "measured": date, "sites": n, "sites_with_web_font": run_sites, "ai_rate_counted": enough,
+        "pooled_sites_with_web_font": font_sites,
         "sources": dict(Counter(label.split("/")[0] for label in sites)),
         "thresholds": {"ai_rate": AI_RATE, "google_top": GOOGLE_TOP, "min_font_sites": MIN_FONT_SITES},
-        "ai_rates": dict(sorted(rate.items(), key=lambda kv: -kv[1])),
+        "ai_rates": dict(sorted(run_rate.items(), key=lambda kv: -kv[1])),
+        "pooled_ai_rates": dict(sorted(rate.items(), key=lambda kv: -kv[1])),
         "suggest_avoid_ai": suggest_ai, "suggest_avoid_web": suggest_web,
         "catalog_flagged": flagged, "avoid_below_threshold": stale, "judgement_now_confirmed": confirmed,
     }
-    (SLOP / f"{date}.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
+    report_path = SLOP / f"{date}{'-saved' if args.no_claude else ''}.json"
+    report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
 
-    print(f"\n{n} sites measured ({report['sources']}), {font_sites} load a web font. Top AI picks (share of those):")
+    print(f"\n{n} sites measured ({report['sources']}), {run_sites} load a web font. "
+          f"Top AI picks (share of {font_sites} web-font sites, earlier runs included):")
     if not enough:
         print(f"  ⚠︎ fewer than {MIN_FONT_SITES} sites load a web font: AI rates are shown but not used.")
-    for font, r in list(report["ai_rates"].items())[:15]:
+    for font, r in list(report["pooled_ai_rates"].items())[:15]:
         tag = "avoid" if font in avoid_names else "CATALOG" if font in catalog else "new"
         print(f"  {r:6.1%}  {font}  [{tag}]  google #{ranks.get(font, '-')}")
     print(f"\nSuggested avoid additions (AI rate ≥ {AI_RATE:.0%}): {', '.join(suggest_ai) or 'none'}")
@@ -206,7 +230,7 @@ def main():
     label = "below both thresholds" if enough else f"not in Google top {GOOGLE_TOP} (AI data too thin to judge)"
     print(f"Measured avoid entries {label}: {', '.join(stale) or 'none'}")
     print(f"Judgement entries now backed by data (switch basis to 'measured'): {', '.join(confirmed) or 'none'}")
-    print(f"\nReport: {(SLOP / f'{date}.json').relative_to(ROOT)}")
+    print(f"\nReport: {report_path.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

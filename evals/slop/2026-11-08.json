@@ -1,0 +1,66 @@
+{
+  "measured": "2026-11-08",
+  "sites": 30,
+  "sites_with_web_font": 11,
+  "ai_rate_counted": true,
+  "sources": {
+    "claude": 30
+  },
+  "thresholds": {
+    "ai_rate": 0.15,
+    "google_top": 40,
+    "min_font_sites": 10
+  },
+  "ai_rates": {
+    "Bricolage Grotesque": 0.273,
+    "Newsreader": 0.273,
+    "DM Mono": 0.273,
+    "Instrument Sans": 0.182,
+    "Spline Sans Mono": 0.182,
+    "Archivo": 0.182,
+    "Figtree": 0.091,
+    "IBM Plex Mono": 0.091,
+    "IBM Plex Sans": 0.091,
+    "Schibsted Grotesk": 0.091,
+    "Reenie Beanie": 0.091,
+    "Literata": 0.091,
+    "Bagel Fat One": 0.091,
+    "Caprasimo": 0.091,
+    "Stardos Stencil": 0.091,
+    "Familjen Grotesk": 0.091
+  },
+  "suggest_avoid_ai": [
+    "Bricolage Grotesque",
+    "DM Mono",
+    "Instrument Sans",
+    "Spline Sans Mono",
+    "Archivo"
+  ],
+  "suggest_avoid_web": [
+    "Google Sans",
+    "Noto Sans JP",
+    "Arimo",
+    "Roboto Condensed",
+    "Roboto Mono",
+    "Noto Sans",
+    "Nunito Sans",
+    "Roboto Slab",
+    "Ubuntu",
+    "Kanit",
+    "Archivo Black",
+    "Noto Sans KR"
+  ],
+  "catalog_flagged": [
+    {
+      "id": "newsreader",
+      "name": "Newsreader",
+      "ai_rate": 0.273,
+      "google_rank": 120
+    }
+  ],
+  "avoid_below_threshold": [
+    "JetBrains Mono",
+    "Fraunces"
+  ],
+  "judgement_now_confirmed": []
+}
